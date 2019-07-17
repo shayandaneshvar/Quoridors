@@ -16,6 +16,15 @@ public final class Validator {
                     (Move) action, game);
         } else if (action instanceof Block) {
             System.out.println("Validating Block");
+            if (turn1) {
+                if (game.getBoard().getAssets().getPlayer1InactiveWalls() == 0) {
+                    return false;
+                }
+            } else {
+                if (game.getBoard().getAssets().getPlayer2InactiveWalls() == 0) {
+                    return false;
+                }
+            }
             return isBlockValid((Block) action, game);
         }
         return false;

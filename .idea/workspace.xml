@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300e70af-24f6-4573-ac9c-713ca2433b36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Triple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Classic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Classic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Validator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="1218">
               <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,70 +44,423 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Validator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Triple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="402">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/model">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>model</OriginalElement>
+              <nodes>
+                <node x="1119.446705606893" y="474.0">model.Board</node>
+                <node x="583.7954226190473" y="136.0">model.Direction</node>
+                <node x="686.81875" y="474.0">model.Observable</node>
+                <node x="58.50000000000006" y="474.0">model.Move</node>
+                <node x="618.3508003454878" y="706.0">model.Classic</node>
+                <node x="934.4204226190473" y="338.0">model.BoardAssets</node>
+                <node x="719.81875" y="580.0">model.Game</node>
+                <node x="1207.5870892857138" y="338.0">model.Cell</node>
+                <node x="1008.9401488303357" y="232.0">model.Piece</node>
+                <node x="206.9641726190472" y="580.0">model.HumanPlayer</node>
+                <node x="1005.9401488303358" y="136.0">model.BoardItem</node>
+                <node x="112.93750000000006" y="338.0">model.Action</node>
+                <node x="538.71875" y="474.0">model.Block</node>
+                <node x="882.00625" y="232.0">model.Wall</node>
+                <node x="557.81875" y="832.0">model.Validator</node>
+                <node x="393.71875000000006" y="474.0">model.Player</node>
+                <node x="281.71875000000006" y="474.0">model.Act</node>
+                <node x="185.4954226190472" y="0.0">model.Position</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="model.Validator" target="model.Move">
+                  <point x="-43.09090909090912" y="-18.0" />
+                  <point x="593.7278409090909" y="792.0" />
+                  <point x="84.76723216366912" y="792.0" />
+                  <point x="84.76723216366912" y="560.0" />
+                  <point x="75.6666666666668" y="560.0" />
+                  <point x="-34.33333333333326" y="18.0" />
+                </edge>
+                <edge source="model.HumanPlayer" target="model.Act">
+                  <point x="11.25" y="-18.0" />
+                  <point x="308.2141726190472" y="530.0" />
+                  <point x="327.71875000000006" y="530.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Position">
+                  <point x="-71.81818181818187" y="-18.0" />
+                  <point x="565.0005681818182" y="812.0" />
+                  <point x="26.0" y="812.0" />
+                  <point x="26.0" y="56.0" />
+                  <point x="191.14926877289338" y="56.0" />
+                  <point x="-67.84615384615381" y="18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Wall">
+                  <point x="43.09090909090912" y="-18.0" />
+                  <point x="679.9096590909091" y="792.0" />
+                  <point x="905.5026488303357" y="792.0" />
+                  <point x="905.5026488303357" y="308.0" />
+                  <point x="920.63125" y="308.0" />
+                  <point x="-12.875" y="18.0" />
+                </edge>
+                <edge source="model.Action" target="model.Position">
+                  <point x="-31.25" y="-18.0" />
+                  <point x="144.18750000000006" y="318.0" />
+                  <point x="180.49542261904725" y="318.0" />
+                  <point x="180.49542261904725" y="96.0" />
+                  <point x="236.38003800366255" y="96.0" />
+                  <point x="-22.61538461538464" y="18.0" />
+                </edge>
+                <edge source="model.HumanPlayer" target="model.Block">
+                  <point x="78.75" y="-18.0" />
+                  <point x="375.7141726190472" y="560.0" />
+                  <point x="557.71875" y="560.0" />
+                  <point x="-38.0" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Player">
+                  <point x="-34.0" y="-18.0" />
+                  <point x="652.3508003454878" y="666.0" />
+                  <point x="456.21875000000006" y="666.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Action">
+                  <point x="-47.60000000000002" y="-18.0" />
+                  <point x="638.7508003454877" y="676.0" />
+                  <point x="183.00000000000006" y="676.0" />
+                  <point x="183.00000000000006" y="444.0" />
+                  <point x="167.62500000000006" y="444.0" />
+                  <point x="-7.8125" y="18.0" />
+                </edge>
+                <edge source="model.Board" target="model.Position">
+                  <point x="0.0" y="-18.0" />
+                  <point x="1176.446705606893" y="394.0" />
+                  <point x="1197.0870892857138" y="394.0" />
+                  <point x="1197.0870892857138" y="76.0" />
+                  <point x="315.53388415750874" y="76.0" />
+                  <point x="56.53846153846155" y="18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Cell">
+                  <point x="71.81818181818187" y="-18.0" />
+                  <point x="708.6369318181819" y="812.0" />
+                  <point x="1268.1550389402262" y="812.0" />
+                  <point x="1268.1550389402262" y="454.0" />
+                  <point x="1302.0037559523805" y="454.0" />
+                  <point x="42.91666666666663" y="18.0" />
+                </edge>
+                <edge source="model.Piece" target="model.Position">
+                  <point x="-38.0" y="-18.0" />
+                  <point x="1027.9401488303356" y="192.0" />
+                  <point x="987.4883722735594" y="192.0" />
+                  <point x="987.4883722735594" y="106.0" />
+                  <point x="281.61080723443183" y="106.0" />
+                  <point x="22.61538461538464" y="18.0" />
+                </edge>
+                <edge source="model.Player" target="model.Action">
+                  <point x="-1.1368683772161603E-13" y="-18.0" />
+                  <point x="456.21874999999994" y="424.0" />
+                  <point x="198.87500000000006" y="424.0" />
+                  <point x="23.4375" y="18.0" />
+                </edge>
+                <edge source="model.Board" target="model.BoardAssets">
+                  <point x="-37.99999999999997" y="-18.0" />
+                  <point x="1138.446705606893" y="444.0" />
+                  <point x="1024.4204226190473" y="444.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.Game" target="model.Board">
+                  <point x="20.600000000000023" y="-18.0" />
+                  <point x="791.91875" y="550.0" />
+                  <point x="1138.446705606893" y="550.0" />
+                  <point x="-38.0" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Direction">
+                  <point x="-6.7999999999999545" y="-18.0" />
+                  <point x="679.5508003454878" y="646.0" />
+                  <point x="665.31875" y="646.0" />
+                  <point x="665.31875" y="212.0" />
+                  <point x="662.7954226190473" y="212.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.Cell" target="model.BoardItem">
+                  <point x="-34.33333333333337" y="-18.0" />
+                  <point x="1224.7537559523805" y="308.0" />
+                  <point x="1140.6883003454877" y="308.0" />
+                  <point x="1140.6883003454877" y="212.0" />
+                  <point x="1124.4401488303358" y="212.0" />
+                  <point x="39.5" y="18.0" />
+                </edge>
+                <edge source="model.Move" target="model.Action">
+                  <point x="34.33333333333326" y="-18.0" />
+                  <point x="144.33333333333331" y="454.0" />
+                  <point x="136.37500000000006" y="454.0" />
+                  <point x="-39.0625" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Board">
+                  <point x="47.60000000000002" y="-18.0" />
+                  <point x="733.9508003454878" y="676.0" />
+                  <point x="1223.696705606893" y="676.0" />
+                  <point x="1223.696705606893" y="560.0" />
+                  <point x="1214.446705606893" y="560.0" />
+                  <point x="38.0" y="18.0" />
+                </edge>
+                <edge source="model.HumanPlayer" target="model.Direction">
+                  <point x="-11.25" y="-18.0" />
+                  <point x="285.7141726190472" y="560.0" />
+                  <point x="271.21875000000006" y="560.0" />
+                  <point x="271.21875000000006" y="212.0" />
+                  <point x="595.0811369047615" y="212.0" />
+                  <point x="-67.71428571428567" y="18.0" />
+                </edge>
+                <edge source="model.Block" target="model.Position">
+                  <point x="0.0" y="-18.0" />
+                  <point x="595.71875" y="394.0" />
+                  <point x="248.43750000000006" y="394.0" />
+                  <point x="248.43750000000006" y="116.0" />
+                  <point x="258.9954226190472" y="116.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.HumanPlayer" target="model.Position">
+                  <point x="-78.75" y="-18.0" />
+                  <point x="218.2141726190472" y="550.0" />
+                  <point x="48.0" y="550.0" />
+                  <point x="48.0" y="76.0" />
+                  <point x="213.7646533882779" y="76.0" />
+                  <point x="-45.23076923076928" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Validator">
+                  <point x="34.0" y="18.0" />
+                  <point x="720.3508003454878" y="772.0" />
+                  <point x="651.1823863636364" y="772.0" />
+                  <point x="14.363636363636374" y="-18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Direction">
+                  <point x="28.727272727272748" y="-18.0" />
+                  <point x="665.5460227272728" y="782.0" />
+                  <point x="866.31875" y="782.0" />
+                  <point x="866.31875" y="212.0" />
+                  <point x="685.3668511904757" y="212.0" />
+                  <point x="22.571428571428555" y="18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Classic">
+                  <point x="0.0" y="-18.0" />
+                  <point x="636.81875" y="762.0" />
+                  <point x="652.3508003454878" y="762.0" />
+                  <point x="-34.0" y="18.0" />
+                </edge>
+                <edge source="model.Piece" target="model.BoardItem">
+                  <point x="0.0" y="-18.0" />
+                  <point x="1065.9401488303356" y="212.0" />
+                  <point x="1071.773482163669" y="212.0" />
+                  <point x="-13.166666666666686" y="18.0" />
+                </edge>
+                <edge source="model.Block" target="model.Direction">
+                  <point x="45.60000000000002" y="-18.0" />
+                  <point x="641.3187500000001" y="454.0" />
+                  <point x="633.4133722735595" y="454.0" />
+                  <point x="633.4133722735595" y="212.0" />
+                  <point x="640.2239940476186" y="212.0" />
+                  <point x="-22.571428571428555" y="18.0" />
+                </edge>
+                <edge source="model.HumanPlayer" target="model.Action">
+                  <point x="-33.75" y="-18.0" />
+                  <point x="263.2141726190472" y="530.0" />
+                  <point x="194.00000000000006" y="530.0" />
+                  <point x="194.00000000000006" y="434.0" />
+                  <point x="183.25000000000006" y="434.0" />
+                  <point x="7.8125" y="18.0" />
+                </edge>
+                <edge source="model.Wall" target="model.Position">
+                  <point x="0.0" y="-18.0" />
+                  <point x="933.50625" y="116.0" />
+                  <point x="270.30311492673957" y="116.0" />
+                  <point x="11.307692307692378" y="18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Block">
+                  <point x="-14.363636363636374" y="-18.0" />
+                  <point x="622.4551136363636" y="772.0" />
+                  <point x="593.1526488303357" y="772.0" />
+                  <point x="593.1526488303357" y="560.0" />
+                  <point x="595.71875" y="560.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.HumanPlayer" target="model.Player">
+                  <point x="33.75" y="-18.0" />
+                  <point x="330.7141726190472" y="540.0" />
+                  <point x="406.21875000000006" y="540.0" />
+                  <point x="-50.0" y="18.0" />
+                </edge>
+                <edge source="model.Wall" target="model.Direction">
+                  <point x="-20.600000000000023" y="-18.0" />
+                  <point x="912.90625" y="192.0" />
+                  <point x="730.5097083333328" y="192.0" />
+                  <point x="67.71428571428567" y="18.0" />
+                </edge>
+                <edge source="model.Game" target="model.Observable">
+                  <point x="0.0" y="-18.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.Block" target="model.Action">
+                  <point x="-45.60000000000002" y="-18.0" />
+                  <point x="550.1187500000001" y="414.0" />
+                  <point x="214.50000000000006" y="414.0" />
+                  <point x="39.0625" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Game">
+                  <point x="34.0" y="-18.0" />
+                  <point x="720.3508003454878" y="666.0" />
+                  <point x="797.06875" y="666.0" />
+                  <point x="25.75" y="18.0" />
+                </edge>
+                <edge source="model.Wall" target="model.BoardItem">
+                  <point x="20.600000000000023" y="-18.0" />
+                  <point x="954.10625" y="202.0" />
+                  <point x="1019.1068154970026" y="202.0" />
+                  <point x="-65.83333333333331" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Block">
+                  <point x="-20.399999999999977" y="-18.0" />
+                  <point x="665.9508003454878" y="656.0" />
+                  <point x="629.6133722735594" y="656.0" />
+                  <point x="629.6133722735594" y="560.0" />
+                  <point x="633.71875" y="560.0" />
+                  <point x="38.0" y="18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Piece">
+                  <point x="57.454545454545496" y="-18.0" />
+                  <point x="694.2732954545455" y="802.0" />
+                  <point x="923.9204226190473" y="802.0" />
+                  <point x="923.9204226190473" y="318.0" />
+                  <point x="1023.1901488303357" y="318.0" />
+                  <point x="-42.75" y="18.0" />
+                </edge>
+                <edge source="model.Validator" target="model.Action">
+                  <point x="-28.727272727272748" y="-18.0" />
+                  <point x="608.0914772727273" y="782.0" />
+                  <point x="172.00000000000006" y="782.0" />
+                  <point x="172.00000000000006" y="454.0" />
+                  <point x="152.00000000000006" y="454.0" />
+                  <point x="-23.4375" y="18.0" />
+                </edge>
+                <edge source="model.Board" target="model.Piece">
+                  <point x="-12.666666666666629" y="-18.0" />
+                  <point x="1163.7800389402262" y="424.0" />
+                  <point x="1152.9620892857138" y="424.0" />
+                  <point x="1152.9620892857138" y="318.0" />
+                  <point x="1108.6901488303356" y="318.0" />
+                  <point x="42.75" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Cell">
+                  <point x="61.200000000000045" y="-18.0" />
+                  <point x="747.5508003454878" y="686.0" />
+                  <point x="1257.1550389402262" y="686.0" />
+                  <point x="1257.1550389402262" y="444.0" />
+                  <point x="1284.8370892857138" y="444.0" />
+                  <point x="25.75" y="18.0" />
+                </edge>
+                <edge source="model.Game" target="model.Player">
+                  <point x="-20.600000000000023" y="-18.0" />
+                  <point x="750.71875" y="540.0" />
+                  <point x="506.21875000000006" y="540.0" />
+                  <point x="50.0" y="18.0" />
+                </edge>
+                <edge source="model.Board" target="model.Cell">
+                  <point x="50.666666666666686" y="-18.0" />
+                  <point x="1227.1133722735594" y="434.0" />
+                  <point x="1267.6704226190473" y="434.0" />
+                  <point x="8.583333333333314" y="18.0" />
+                </edge>
+                <edge source="model.HumanPlayer" target="model.Move">
+                  <point x="-56.25" y="-18.0" />
+                  <point x="240.7141726190472" y="540.0" />
+                  <point x="144.33333333333331" y="540.0" />
+                  <point x="34.33333333333326" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Move">
+                  <point x="-61.19999999999993" y="-18.0" />
+                  <point x="625.1508003454878" y="686.0" />
+                  <point x="98.33333333333343" y="686.0" />
+                  <point x="98.33333333333343" y="560.0" />
+                  <point x="110.00000000000006" y="560.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="model.Move" target="model.Position">
+                  <point x="-34.33333333333326" y="-18.0" />
+                  <point x="75.6666666666668" y="454.0" />
+                  <point x="77.15288367882113" y="454.0" />
+                  <point x="77.15288367882113" y="86.0" />
+                  <point x="225.07234569597028" y="86.0" />
+                  <point x="-33.923076923076906" y="18.0" />
+                </edge>
+                <edge source="model.BoardItem" target="model.Position">
+                  <point x="39.5" y="-18.0" />
+                  <point x="1124.4401488303358" y="86.0" />
+                  <point x="304.2261918498165" y="86.0" />
+                  <point x="45.23076923076928" y="18.0" />
+                </edge>
+                <edge source="model.BoardAssets" target="model.Piece">
+                  <point x="67.5" y="-18.0" />
+                  <point x="1091.9204226190473" y="318.0" />
+                  <point x="1080.1901488303356" y="318.0" />
+                  <point x="14.25" y="18.0" />
+                </edge>
+                <edge source="model.Cell" target="model.Position">
+                  <point x="34.33333333333337" y="-18.0" />
+                  <point x="1293.4204226190473" y="288.0" />
+                  <point x="1261.398482163669" y="288.0" />
+                  <point x="1261.398482163669" y="66.0" />
+                  <point x="326.8415764652011" y="66.0" />
+                  <point x="67.84615384615392" y="18.0" />
+                </edge>
+                <edge source="model.Classic" target="model.Wall">
+                  <point x="6.800000000000068" y="-18.0" />
+                  <point x="693.1508003454878" y="636.0" />
+                  <point x="676.31875" y="636.0" />
+                  <point x="676.31875" y="454.0" />
+                  <point x="888.3579226190473" y="454.0" />
+                  <point x="888.3579226190473" y="318.0" />
+                  <point x="894.88125" y="318.0" />
+                  <point x="-38.625" y="18.0" />
+                </edge>
+                <edge source="model.BoardAssets" target="model.Wall">
+                  <point x="-67.5" y="-18.0" />
+                  <point x="956.9204226190473" y="308.0" />
+                  <point x="946.38125" y="308.0" />
+                  <point x="12.875" y="18.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9" x="211.66666666666669" y="246.66666666666669" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Classic.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+            <state relative-caret-position="-302">
+              <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +469,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Choice.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Classic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,6 +507,7 @@
     <findStrings>
       <find>while (true)</find>
       <find>Timer</find>
+      <find>gameOver</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,7 +526,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Act.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Triple.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Action.java" />
@@ -182,10 +536,11 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Cell.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Classic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Triple.java" />
       </list>
     </option>
   </component>
@@ -329,12 +684,12 @@
       <updated>1563272084935</updated>
       <workItem from="1563272088384" duration="11686000" />
       <workItem from="1563287649216" duration="12150000" />
-      <workItem from="1563336385981" duration="18980000" />
+      <workItem from="1563336385981" duration="22548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42816000" />
+    <option name="totallyTimeSpent" value="46384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -500,352 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model</OriginalElement>
-          <nodes>
-            <node x="999.4802264957267" y="454.0">model.Board</node>
-            <node x="595.7135695970697" y="136.0">model.Direction</node>
-            <node x="559.3339307081808" y="454.0">model.Observable</node>
-            <node x="301.3339307081809" y="454.0">model.Move</node>
-            <node x="601.5839307081808" y="736.0">model.Classic</node>
-            <node x="837.3287503052504" y="328.0">model.BoardAssets</node>
-            <node x="592.3339307081808" y="640.0">model.Game</node>
-            <node x="1082.6620836385837" y="328.0">model.Cell</node>
-            <node x="910.3339307081808" y="242.0">model.Piece</node>
-            <node x="147.4589307081809" y="640.0">model.HumanPlayer</node>
-            <node x="938.8339307081808" y="136.0">model.BoardItem</node>
-            <node x="235.41772649572675" y="328.0">model.Action</node>
-            <node x="424.3339307081809" y="454.0">model.Block</node>
-            <node x="787.3339307081808" y="242.0">model.Wall</node>
-            <node x="715.3339307081808" y="640.0">model.Validator</node>
-            <node x="139.2302264957268" y="454.0">model.Player</node>
-            <node x="10.5" y="454.0">model.Act</node>
-            <node x="855.8802362637364" y="0.0">model.Position</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="model.Validator" target="model.Move">
-              <point x="-52.666666666666686" y="-18.0" />
-              <point x="741.6672640415142" y="530.0" />
-              <point x="378.5839307081809" y="530.0" />
-              <point x="25.75" y="18.0" />
-            </edge>
-            <edge source="model.HumanPlayer" target="model.Act">
-              <point x="-78.75" y="-18.0" />
-              <point x="158.7089307081809" y="610.0" />
-              <point x="56.5" y="610.0" />
-              <point x="0.0" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Classic">
-              <point x="39.5" y="18.0" />
-              <point x="833.8339307081808" y="706.0" />
-              <point x="708.4410735653237" y="706.0" />
-              <point x="38.85714285714289" y="-18.0" />
-            </edge>
-            <edge source="model.Piece" target="model.BoardItem">
-              <point x="38.0" y="-18.0" />
-              <point x="1005.3339307081808" y="222.0" />
-              <point x="1007.9589307081808" y="222.0" />
-              <point x="-9.875" y="18.0" />
-            </edge>
-            <edge source="model.Block" target="model.Direction">
-              <point x="45.60000000000002" y="-18.0" />
-              <point x="526.9172640415143" y="212.0" />
-              <point x="635.2135695970697" y="212.0" />
-              <point x="-39.5" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Position">
-              <point x="70.22222222222217" y="-18.0" />
-              <point x="864.556152930403" y="620.0" />
-              <point x="1244.9913473748475" y="620.0" />
-              <point x="1244.9913473748475" y="66.0" />
-              <point x="997.2263901098902" y="66.0" />
-              <point x="67.84615384615387" y="18.0" />
-            </edge>
-            <edge source="model.HumanPlayer" target="model.Action">
-              <point x="-33.75" y="-18.0" />
-              <point x="203.7089307081809" y="590.0" />
-              <point x="128.7302264957267" y="590.0" />
-              <point x="128.7302264957267" y="424.0" />
-              <point x="258.85522649572675" y="424.0" />
-              <point x="-39.0625" y="18.0" />
-            </edge>
-            <edge source="model.Wall" target="model.Position">
-              <point x="0.0" y="-18.0" />
-              <point x="838.8339307081808" y="106.0" />
-              <point x="918.072543956044" y="106.0" />
-              <point x="-11.307692307692264" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Wall">
-              <point x="0.0" y="-18.0" />
-              <point x="794.3339307081808" y="308.0" />
-              <point x="804.5005973748475" y="308.0" />
-              <point x="-34.33333333333337" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Block">
-              <point x="-35.111111111111086" y="-18.0" />
-              <point x="759.2228195970697" y="520.0" />
-              <point x="509.8339307081809" y="520.0" />
-              <point x="28.5" y="18.0" />
-            </edge>
-            <edge source="model.Action" target="model.Position">
-              <point x="31.25" y="-18.0" />
-              <point x="329.16772649572675" y="76.0" />
-              <point x="884.1494670329671" y="76.0" />
-              <point x="-45.230769230769226" y="18.0" />
-            </edge>
-            <edge source="model.HumanPlayer" target="model.Player">
-              <point x="-11.25" y="-18.0" />
-              <point x="226.2089307081809" y="580.0" />
-              <point x="176.7302264957268" y="580.0" />
-              <point x="-25.0" y="18.0" />
-            </edge>
-            <edge source="model.Wall" target="model.Direction">
-              <point x="-41.200000000000045" y="-18.0" />
-              <point x="797.6339307081807" y="212.0" />
-              <point x="714.2135695970697" y="212.0" />
-              <point x="39.5" y="18.0" />
-            </edge>
-            <edge source="model.HumanPlayer" target="model.Block">
-              <point x="56.25" y="-18.0" />
-              <point x="293.7089307081809" y="610.0" />
-              <point x="452.8339307081809" y="610.0" />
-              <point x="-28.5" y="18.0" />
-            </edge>
-            <edge source="model.Classic" target="model.Player">
-              <point x="-38.85714285714289" y="-18.0" />
-              <point x="630.7267878510379" y="706.0" />
-              <point x="136.9589307081809" y="706.0" />
-              <point x="136.9589307081809" y="620.0" />
-              <point x="151.7302264957268" y="620.0" />
-              <point x="-50.0" y="18.0" />
-            </edge>
-            <edge source="model.Classic" target="model.Action">
-              <point x="-58.285714285714334" y="-18.0" />
-              <point x="611.2982164224666" y="716.0" />
-              <point x="0.0" y="716.0" />
-              <point x="0.0" y="414.0" />
-              <point x="243.23022649572675" y="414.0" />
-              <point x="-54.6875" y="18.0" />
-            </edge>
-            <edge source="model.Game" target="model.Observable">
-              <point x="0.0" y="-18.0" />
-              <point x="0.0" y="18.0" />
-            </edge>
-            <edge source="model.Board" target="model.Position">
-              <point x="51.299999999999955" y="-18.0" />
-              <point x="1107.7802264957268" y="434.0" />
-              <point x="1196.1620836385837" y="434.0" />
-              <point x="1196.1620836385837" y="86.0" />
-              <point x="974.6110054945055" y="86.0" />
-              <point x="45.230769230769226" y="18.0" />
-            </edge>
-            <edge source="model.Block" target="model.Action">
-              <point x="-22.799999999999983" y="-18.0" />
-              <point x="458.53393070818095" y="404.0" />
-              <point x="352.60522649572675" y="404.0" />
-              <point x="54.6875" y="18.0" />
-            </edge>
-            <edge source="model.Classic" target="model.Game">
-              <point x="-19.428571428571445" y="-18.0" />
-              <point x="650.1553592796095" y="696.0" />
-              <point x="618.0839307081808" y="696.0" />
-              <point x="-25.75" y="18.0" />
-            </edge>
-            <edge source="model.Wall" target="model.BoardItem">
-              <point x="20.600000000000023" y="-18.0" />
-              <point x="859.4339307081809" y="202.0" />
-              <point x="948.7089307081808" y="202.0" />
-              <point x="-69.125" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Cell">
-              <point x="35.111111111111086" y="-18.0" />
-              <point x="829.4450418192919" y="600.0" />
-              <point x="1188.403837606838" y="600.0" />
-              <point x="1188.403837606838" y="424.0" />
-              <point x="1172.7870836385837" y="424.0" />
-              <point x="38.625" y="18.0" />
-            </edge>
-            <edge source="model.Piece" target="model.Position">
-              <point x="-38.0" y="-18.0" />
-              <point x="929.3339307081808" y="192.0" />
-              <point x="916.4177264957267" y="192.0" />
-              <point x="916.4177264957267" y="116.0" />
-              <point x="929.3802362637364" y="116.0" />
-              <point x="5.6843418860808015E-14" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Piece">
-              <point x="17.555555555555543" y="-18.0" />
-              <point x="811.8894862637364" y="570.0" />
-              <point x="823.3287503052504" y="570.0" />
-              <point x="823.3287503052504" y="308.0" />
-              <point x="924.5839307081808" y="308.0" />
-              <point x="-42.75" y="18.0" />
-            </edge>
-            <edge source="model.Player" target="model.Action">
-              <point x="0.0" y="-18.0" />
-              <point x="201.7302264957268" y="434.0" />
-              <point x="274.48022649572675" y="434.0" />
-              <point x="-23.4375" y="18.0" />
-            </edge>
-            <edge source="model.Board" target="model.BoardAssets">
-              <point x="-51.30000000000007" y="-18.0" />
-              <point x="1005.1802264957266" y="434.0" />
-              <point x="867.3287503052504" y="434.0" />
-              <point x="-60.0" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Action">
-              <point x="-70.22222222222223" y="-18.0" />
-              <point x="724.1117084859586" y="540.0" />
-              <point x="290.8339307081809" y="540.0" />
-              <point x="-7.8125" y="18.0" />
-            </edge>
-            <edge source="model.Game" target="model.Board">
-              <point x="20.600000000000023" y="-18.0" />
-              <point x="664.4339307081809" y="580.0" />
-              <point x="1018.4802264957267" y="580.0" />
-              <point x="-38.0" y="18.0" />
-            </edge>
-            <edge source="model.Cell" target="model.BoardItem">
-              <point x="0.0" y="-18.0" />
-              <point x="1134.1620836385837" y="308.0" />
-              <point x="1122.495416971917" y="308.0" />
-              <point x="1122.495416971917" y="192.0" />
-              <point x="1086.9589307081808" y="192.0" />
-              <point x="69.125" y="18.0" />
-            </edge>
-            <edge source="model.Board" target="model.BoardItem">
-              <point x="-5.7000000000000455" y="-18.0" />
-              <point x="1050.7802264957268" y="384.0" />
-              <point x="1061.1620836385837" y="384.0" />
-              <point x="1061.1620836385837" y="222.0" />
-              <point x="1027.7089307081808" y="222.0" />
-              <point x="9.875" y="18.0" />
-            </edge>
-            <edge source="model.Move" target="model.Action">
-              <point x="0.0" y="-18.0" />
-              <point x="352.8339307081809" y="424.0" />
-              <point x="321.35522649572675" y="424.0" />
-              <point x="23.4375" y="18.0" />
-            </edge>
-            <edge source="model.Board" target="model.Piece">
-              <point x="-17.100000000000023" y="-18.0" />
-              <point x="1039.3802264957267" y="434.0" />
-              <point x="1034.7870836385837" y="434.0" />
-              <point x="1034.7870836385837" y="308.0" />
-              <point x="1010.0839307081808" y="308.0" />
-              <point x="42.75" y="18.0" />
-            </edge>
-            <edge source="model.Classic" target="model.Board">
-              <point x="58.28571428571422" y="-18.0" />
-              <point x="727.869644993895" y="716.0" />
-              <point x="1129.208930708181" y="716.0" />
-              <point x="1129.208930708181" y="590.0" />
-              <point x="1094.4802264957266" y="590.0" />
-              <point x="38.0" y="18.0" />
-            </edge>
-            <edge source="model.Game" target="model.Player">
-              <point x="-41.200000000000045" y="-18.0" />
-              <point x="602.6339307081807" y="560.0" />
-              <point x="226.7302264957268" y="560.0" />
-              <point x="25.0" y="18.0" />
-            </edge>
-            <edge source="model.Board" target="model.Cell">
-              <point x="28.5" y="-18.0" />
-              <point x="1084.9802264957266" y="414.0" />
-              <point x="1121.2870836385837" y="414.0" />
-              <point x="-12.875" y="18.0" />
-            </edge>
-            <edge source="model.HumanPlayer" target="model.Move">
-              <point x="33.75" y="-18.0" />
-              <point x="271.2089307081809" y="600.0" />
-              <point x="327.0839307081809" y="600.0" />
-              <point x="-25.75" y="18.0" />
-            </edge>
-            <edge source="model.HumanPlayer" target="model.Direction">
-              <point x="78.75" y="-18.0" />
-              <point x="316.2089307081809" y="620.0" />
-              <point x="548.8339307081809" y="620.0" />
-              <point x="548.8339307081809" y="222.0" />
-              <point x="661.546902930403" y="222.0" />
-              <point x="-13.166666666666686" y="18.0" />
-            </edge>
-            <edge source="model.Block" target="model.Position">
-              <point x="0.0" y="-18.0" />
-              <point x="481.3339307081809" y="434.0" />
-              <point x="483.76875000000007" y="434.0" />
-              <point x="483.76875000000007" y="96.0" />
-              <point x="906.7648516483517" y="96.0" />
-              <point x="-22.615384615384585" y="18.0" />
-            </edge>
-            <edge source="model.Move" target="model.Position">
-              <point x="34.333333333333314" y="-18.0" />
-              <point x="387.1672640415142" y="434.0" />
-              <point x="412.64689316239344" y="434.0" />
-              <point x="412.64689316239344" y="86.0" />
-              <point x="895.4571593406595" y="86.0" />
-              <point x="-33.923076923076906" y="18.0" />
-            </edge>
-            <edge source="model.BoardItem" target="model.Position">
-              <point x="-39.5" y="-18.0" />
-              <point x="978.3339307081808" y="116.0" />
-              <point x="940.6879285714286" y="116.0" />
-              <point x="11.30769230769232" y="18.0" />
-            </edge>
-            <edge source="model.HumanPlayer" target="model.Position">
-              <point x="-56.25" y="-18.0" />
-              <point x="181.2089307081809" y="600.0" />
-              <point x="113.0" y="600.0" />
-              <point x="113.0" y="56.0" />
-              <point x="861.5340824175825" y="56.0" />
-              <point x="-67.84615384615387" y="18.0" />
-            </edge>
-            <edge source="model.Cell" target="model.Position">
-              <point x="34.33333333333326" y="-18.0" />
-              <point x="1168.495416971917" y="308.0" />
-              <point x="1162.9745836385837" y="308.0" />
-              <point x="1162.9745836385837" y="96.0" />
-              <point x="963.3033131868133" y="96.0" />
-              <point x="33.92307692307696" y="18.0" />
-            </edge>
-            <edge source="model.BoardAssets" target="model.Piece">
-              <point x="67.5" y="-18.0" />
-              <point x="994.8287503052504" y="308.0" />
-              <point x="981.5839307081808" y="308.0" />
-              <point x="14.25" y="18.0" />
-            </edge>
-            <edge source="model.Classic" target="model.Validator">
-              <point x="19.428571428571445" y="-18.0" />
-              <point x="689.0125021367523" y="696.0" />
-              <point x="754.8339307081808" y="696.0" />
-              <point x="-39.5" y="18.0" />
-            </edge>
-            <edge source="model.Validator" target="model.Direction">
-              <point x="-17.555555555555543" y="-18.0" />
-              <point x="776.7783751526254" y="510.0" />
-              <point x="755.7505973748475" y="510.0" />
-              <point x="755.7505973748475" y="222.0" />
-              <point x="687.8802362637364" y="222.0" />
-              <point x="13.166666666666657" y="18.0" />
-            </edge>
-            <edge source="model.BoardAssets" target="model.Wall">
-              <point x="-67.5" y="-18.0" />
-              <point x="859.8287503052504" y="298.0" />
-              <point x="838.8339307081808" y="298.0" />
-              <point x="0.0" y="18.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="241.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -906,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Triple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -927,16 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Choice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/HumanPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -947,22 +939,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1308#1424#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-          </folding>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">controller</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">view</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">model</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8780096308186196" x="329.0" y="291.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Validator.java">
+    <entry file="uml://Flash/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Flash</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="694.5" y="273.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>PRIVATE</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>controller</OriginalElement>
+          <nodes>
+            <node x="9.25" y="86.0">controller.Controller</node>
+            <node x="31.25" y="0.0">controller.Triple</node>
+            <node x="145.0" y="172.0">controller.Main</node>
+            <node x="0.0" y="172.0">controller.Choice</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="controller.Choice" target="controller.Controller">
+              <point x="31.25" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="controller.Controller" target="controller.Triple">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="controller.Main" target="controller.Controller">
+              <point x="0.0" y="-18.0" />
+              <point x="196.5" y="147.0" />
+              <point x="150.08333333333334" y="147.0" />
+              <point x="56.33333333333334" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-318.0" y="65.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Choice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
+        <state relative-caret-position="379">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -971,7 +1037,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="1218">
           <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -985,20 +1051,439 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Classic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Classic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        <state relative-caret-position="402">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model</OriginalElement>
+          <nodes>
+            <node x="1119.446705606893" y="474.0">model.Board</node>
+            <node x="583.7954226190473" y="136.0">model.Direction</node>
+            <node x="686.81875" y="474.0">model.Observable</node>
+            <node x="58.50000000000006" y="474.0">model.Move</node>
+            <node x="618.3508003454878" y="706.0">model.Classic</node>
+            <node x="934.4204226190473" y="338.0">model.BoardAssets</node>
+            <node x="719.81875" y="580.0">model.Game</node>
+            <node x="1207.5870892857138" y="338.0">model.Cell</node>
+            <node x="1008.9401488303357" y="232.0">model.Piece</node>
+            <node x="206.9641726190472" y="580.0">model.HumanPlayer</node>
+            <node x="1005.9401488303358" y="136.0">model.BoardItem</node>
+            <node x="112.93750000000006" y="338.0">model.Action</node>
+            <node x="538.71875" y="474.0">model.Block</node>
+            <node x="882.00625" y="232.0">model.Wall</node>
+            <node x="557.81875" y="832.0">model.Validator</node>
+            <node x="393.71875000000006" y="474.0">model.Player</node>
+            <node x="281.71875000000006" y="474.0">model.Act</node>
+            <node x="185.4954226190472" y="0.0">model.Position</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="model.Validator" target="model.Move">
+              <point x="-43.09090909090912" y="-18.0" />
+              <point x="593.7278409090909" y="792.0" />
+              <point x="84.76723216366912" y="792.0" />
+              <point x="84.76723216366912" y="560.0" />
+              <point x="75.6666666666668" y="560.0" />
+              <point x="-34.33333333333326" y="18.0" />
+            </edge>
+            <edge source="model.HumanPlayer" target="model.Act">
+              <point x="11.25" y="-18.0" />
+              <point x="308.2141726190472" y="530.0" />
+              <point x="327.71875000000006" y="530.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Position">
+              <point x="-71.81818181818187" y="-18.0" />
+              <point x="565.0005681818182" y="812.0" />
+              <point x="26.0" y="812.0" />
+              <point x="26.0" y="56.0" />
+              <point x="191.14926877289338" y="56.0" />
+              <point x="-67.84615384615381" y="18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Wall">
+              <point x="43.09090909090912" y="-18.0" />
+              <point x="679.9096590909091" y="792.0" />
+              <point x="905.5026488303357" y="792.0" />
+              <point x="905.5026488303357" y="308.0" />
+              <point x="920.63125" y="308.0" />
+              <point x="-12.875" y="18.0" />
+            </edge>
+            <edge source="model.Action" target="model.Position">
+              <point x="-31.25" y="-18.0" />
+              <point x="144.18750000000006" y="318.0" />
+              <point x="180.49542261904725" y="318.0" />
+              <point x="180.49542261904725" y="96.0" />
+              <point x="236.38003800366255" y="96.0" />
+              <point x="-22.61538461538464" y="18.0" />
+            </edge>
+            <edge source="model.HumanPlayer" target="model.Block">
+              <point x="78.75" y="-18.0" />
+              <point x="375.7141726190472" y="560.0" />
+              <point x="557.71875" y="560.0" />
+              <point x="-38.0" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Player">
+              <point x="-34.0" y="-18.0" />
+              <point x="652.3508003454878" y="666.0" />
+              <point x="456.21875000000006" y="666.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Action">
+              <point x="-47.60000000000002" y="-18.0" />
+              <point x="638.7508003454877" y="676.0" />
+              <point x="183.00000000000006" y="676.0" />
+              <point x="183.00000000000006" y="444.0" />
+              <point x="167.62500000000006" y="444.0" />
+              <point x="-7.8125" y="18.0" />
+            </edge>
+            <edge source="model.Board" target="model.Position">
+              <point x="0.0" y="-18.0" />
+              <point x="1176.446705606893" y="394.0" />
+              <point x="1197.0870892857138" y="394.0" />
+              <point x="1197.0870892857138" y="76.0" />
+              <point x="315.53388415750874" y="76.0" />
+              <point x="56.53846153846155" y="18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Cell">
+              <point x="71.81818181818187" y="-18.0" />
+              <point x="708.6369318181819" y="812.0" />
+              <point x="1268.1550389402262" y="812.0" />
+              <point x="1268.1550389402262" y="454.0" />
+              <point x="1302.0037559523805" y="454.0" />
+              <point x="42.91666666666663" y="18.0" />
+            </edge>
+            <edge source="model.Piece" target="model.Position">
+              <point x="-38.0" y="-18.0" />
+              <point x="1027.9401488303356" y="192.0" />
+              <point x="987.4883722735594" y="192.0" />
+              <point x="987.4883722735594" y="106.0" />
+              <point x="281.61080723443183" y="106.0" />
+              <point x="22.61538461538464" y="18.0" />
+            </edge>
+            <edge source="model.Player" target="model.Action">
+              <point x="-1.1368683772161603E-13" y="-18.0" />
+              <point x="456.21874999999994" y="424.0" />
+              <point x="198.87500000000006" y="424.0" />
+              <point x="23.4375" y="18.0" />
+            </edge>
+            <edge source="model.Board" target="model.BoardAssets">
+              <point x="-37.99999999999997" y="-18.0" />
+              <point x="1138.446705606893" y="444.0" />
+              <point x="1024.4204226190473" y="444.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.Game" target="model.Board">
+              <point x="20.600000000000023" y="-18.0" />
+              <point x="791.91875" y="550.0" />
+              <point x="1138.446705606893" y="550.0" />
+              <point x="-38.0" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Direction">
+              <point x="-6.7999999999999545" y="-18.0" />
+              <point x="679.5508003454878" y="646.0" />
+              <point x="665.31875" y="646.0" />
+              <point x="665.31875" y="212.0" />
+              <point x="662.7954226190473" y="212.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.Cell" target="model.BoardItem">
+              <point x="-34.33333333333337" y="-18.0" />
+              <point x="1224.7537559523805" y="308.0" />
+              <point x="1140.6883003454877" y="308.0" />
+              <point x="1140.6883003454877" y="212.0" />
+              <point x="1124.4401488303358" y="212.0" />
+              <point x="39.5" y="18.0" />
+            </edge>
+            <edge source="model.Move" target="model.Action">
+              <point x="34.33333333333326" y="-18.0" />
+              <point x="144.33333333333331" y="454.0" />
+              <point x="136.37500000000006" y="454.0" />
+              <point x="-39.0625" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Board">
+              <point x="47.60000000000002" y="-18.0" />
+              <point x="733.9508003454878" y="676.0" />
+              <point x="1223.696705606893" y="676.0" />
+              <point x="1223.696705606893" y="560.0" />
+              <point x="1214.446705606893" y="560.0" />
+              <point x="38.0" y="18.0" />
+            </edge>
+            <edge source="model.HumanPlayer" target="model.Direction">
+              <point x="-11.25" y="-18.0" />
+              <point x="285.7141726190472" y="560.0" />
+              <point x="271.21875000000006" y="560.0" />
+              <point x="271.21875000000006" y="212.0" />
+              <point x="595.0811369047615" y="212.0" />
+              <point x="-67.71428571428567" y="18.0" />
+            </edge>
+            <edge source="model.Block" target="model.Position">
+              <point x="0.0" y="-18.0" />
+              <point x="595.71875" y="394.0" />
+              <point x="248.43750000000006" y="394.0" />
+              <point x="248.43750000000006" y="116.0" />
+              <point x="258.9954226190472" y="116.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.HumanPlayer" target="model.Position">
+              <point x="-78.75" y="-18.0" />
+              <point x="218.2141726190472" y="550.0" />
+              <point x="48.0" y="550.0" />
+              <point x="48.0" y="76.0" />
+              <point x="213.7646533882779" y="76.0" />
+              <point x="-45.23076923076928" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Validator">
+              <point x="34.0" y="18.0" />
+              <point x="720.3508003454878" y="772.0" />
+              <point x="651.1823863636364" y="772.0" />
+              <point x="14.363636363636374" y="-18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Direction">
+              <point x="28.727272727272748" y="-18.0" />
+              <point x="665.5460227272728" y="782.0" />
+              <point x="866.31875" y="782.0" />
+              <point x="866.31875" y="212.0" />
+              <point x="685.3668511904757" y="212.0" />
+              <point x="22.571428571428555" y="18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Classic">
+              <point x="0.0" y="-18.0" />
+              <point x="636.81875" y="762.0" />
+              <point x="652.3508003454878" y="762.0" />
+              <point x="-34.0" y="18.0" />
+            </edge>
+            <edge source="model.Piece" target="model.BoardItem">
+              <point x="0.0" y="-18.0" />
+              <point x="1065.9401488303356" y="212.0" />
+              <point x="1071.773482163669" y="212.0" />
+              <point x="-13.166666666666686" y="18.0" />
+            </edge>
+            <edge source="model.Block" target="model.Direction">
+              <point x="45.60000000000002" y="-18.0" />
+              <point x="641.3187500000001" y="454.0" />
+              <point x="633.4133722735595" y="454.0" />
+              <point x="633.4133722735595" y="212.0" />
+              <point x="640.2239940476186" y="212.0" />
+              <point x="-22.571428571428555" y="18.0" />
+            </edge>
+            <edge source="model.HumanPlayer" target="model.Action">
+              <point x="-33.75" y="-18.0" />
+              <point x="263.2141726190472" y="530.0" />
+              <point x="194.00000000000006" y="530.0" />
+              <point x="194.00000000000006" y="434.0" />
+              <point x="183.25000000000006" y="434.0" />
+              <point x="7.8125" y="18.0" />
+            </edge>
+            <edge source="model.Wall" target="model.Position">
+              <point x="0.0" y="-18.0" />
+              <point x="933.50625" y="116.0" />
+              <point x="270.30311492673957" y="116.0" />
+              <point x="11.307692307692378" y="18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Block">
+              <point x="-14.363636363636374" y="-18.0" />
+              <point x="622.4551136363636" y="772.0" />
+              <point x="593.1526488303357" y="772.0" />
+              <point x="593.1526488303357" y="560.0" />
+              <point x="595.71875" y="560.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.HumanPlayer" target="model.Player">
+              <point x="33.75" y="-18.0" />
+              <point x="330.7141726190472" y="540.0" />
+              <point x="406.21875000000006" y="540.0" />
+              <point x="-50.0" y="18.0" />
+            </edge>
+            <edge source="model.Wall" target="model.Direction">
+              <point x="-20.600000000000023" y="-18.0" />
+              <point x="912.90625" y="192.0" />
+              <point x="730.5097083333328" y="192.0" />
+              <point x="67.71428571428567" y="18.0" />
+            </edge>
+            <edge source="model.Game" target="model.Observable">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.Block" target="model.Action">
+              <point x="-45.60000000000002" y="-18.0" />
+              <point x="550.1187500000001" y="414.0" />
+              <point x="214.50000000000006" y="414.0" />
+              <point x="39.0625" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Game">
+              <point x="34.0" y="-18.0" />
+              <point x="720.3508003454878" y="666.0" />
+              <point x="797.06875" y="666.0" />
+              <point x="25.75" y="18.0" />
+            </edge>
+            <edge source="model.Wall" target="model.BoardItem">
+              <point x="20.600000000000023" y="-18.0" />
+              <point x="954.10625" y="202.0" />
+              <point x="1019.1068154970026" y="202.0" />
+              <point x="-65.83333333333331" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Block">
+              <point x="-20.399999999999977" y="-18.0" />
+              <point x="665.9508003454878" y="656.0" />
+              <point x="629.6133722735594" y="656.0" />
+              <point x="629.6133722735594" y="560.0" />
+              <point x="633.71875" y="560.0" />
+              <point x="38.0" y="18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Piece">
+              <point x="57.454545454545496" y="-18.0" />
+              <point x="694.2732954545455" y="802.0" />
+              <point x="923.9204226190473" y="802.0" />
+              <point x="923.9204226190473" y="318.0" />
+              <point x="1023.1901488303357" y="318.0" />
+              <point x="-42.75" y="18.0" />
+            </edge>
+            <edge source="model.Validator" target="model.Action">
+              <point x="-28.727272727272748" y="-18.0" />
+              <point x="608.0914772727273" y="782.0" />
+              <point x="172.00000000000006" y="782.0" />
+              <point x="172.00000000000006" y="454.0" />
+              <point x="152.00000000000006" y="454.0" />
+              <point x="-23.4375" y="18.0" />
+            </edge>
+            <edge source="model.Board" target="model.Piece">
+              <point x="-12.666666666666629" y="-18.0" />
+              <point x="1163.7800389402262" y="424.0" />
+              <point x="1152.9620892857138" y="424.0" />
+              <point x="1152.9620892857138" y="318.0" />
+              <point x="1108.6901488303356" y="318.0" />
+              <point x="42.75" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Cell">
+              <point x="61.200000000000045" y="-18.0" />
+              <point x="747.5508003454878" y="686.0" />
+              <point x="1257.1550389402262" y="686.0" />
+              <point x="1257.1550389402262" y="444.0" />
+              <point x="1284.8370892857138" y="444.0" />
+              <point x="25.75" y="18.0" />
+            </edge>
+            <edge source="model.Game" target="model.Player">
+              <point x="-20.600000000000023" y="-18.0" />
+              <point x="750.71875" y="540.0" />
+              <point x="506.21875000000006" y="540.0" />
+              <point x="50.0" y="18.0" />
+            </edge>
+            <edge source="model.Board" target="model.Cell">
+              <point x="50.666666666666686" y="-18.0" />
+              <point x="1227.1133722735594" y="434.0" />
+              <point x="1267.6704226190473" y="434.0" />
+              <point x="8.583333333333314" y="18.0" />
+            </edge>
+            <edge source="model.HumanPlayer" target="model.Move">
+              <point x="-56.25" y="-18.0" />
+              <point x="240.7141726190472" y="540.0" />
+              <point x="144.33333333333331" y="540.0" />
+              <point x="34.33333333333326" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Move">
+              <point x="-61.19999999999993" y="-18.0" />
+              <point x="625.1508003454878" y="686.0" />
+              <point x="98.33333333333343" y="686.0" />
+              <point x="98.33333333333343" y="560.0" />
+              <point x="110.00000000000006" y="560.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="model.Move" target="model.Position">
+              <point x="-34.33333333333326" y="-18.0" />
+              <point x="75.6666666666668" y="454.0" />
+              <point x="77.15288367882113" y="454.0" />
+              <point x="77.15288367882113" y="86.0" />
+              <point x="225.07234569597028" y="86.0" />
+              <point x="-33.923076923076906" y="18.0" />
+            </edge>
+            <edge source="model.BoardItem" target="model.Position">
+              <point x="39.5" y="-18.0" />
+              <point x="1124.4401488303358" y="86.0" />
+              <point x="304.2261918498165" y="86.0" />
+              <point x="45.23076923076928" y="18.0" />
+            </edge>
+            <edge source="model.BoardAssets" target="model.Piece">
+              <point x="67.5" y="-18.0" />
+              <point x="1091.9204226190473" y="318.0" />
+              <point x="1080.1901488303356" y="318.0" />
+              <point x="14.25" y="18.0" />
+            </edge>
+            <edge source="model.Cell" target="model.Position">
+              <point x="34.33333333333337" y="-18.0" />
+              <point x="1293.4204226190473" y="288.0" />
+              <point x="1261.398482163669" y="288.0" />
+              <point x="1261.398482163669" y="66.0" />
+              <point x="326.8415764652011" y="66.0" />
+              <point x="67.84615384615392" y="18.0" />
+            </edge>
+            <edge source="model.Classic" target="model.Wall">
+              <point x="6.800000000000068" y="-18.0" />
+              <point x="693.1508003454878" y="636.0" />
+              <point x="676.31875" y="636.0" />
+              <point x="676.31875" y="454.0" />
+              <point x="888.3579226190473" y="454.0" />
+              <point x="888.3579226190473" y="318.0" />
+              <point x="894.88125" y="318.0" />
+              <point x="-38.625" y="18.0" />
+            </edge>
+            <edge source="model.BoardAssets" target="model.Wall">
+              <point x="-67.5" y="-18.0" />
+              <point x="956.9204226190473" y="308.0" />
+              <point x="946.38125" y="308.0" />
+              <point x="12.875" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="211.66666666666669" y="246.66666666666669" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1308#1424#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Triple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

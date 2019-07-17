@@ -220,6 +220,7 @@ public class View implements Observer {
                     StackPane stackPane = new StackPane();
                     grid.add(stackPane, i, j);
                     stackPane.getChildren().add(cells[j / 2][i / 2]);
+                    cells[j / 2][i / 2].setFill(Color.WHEAT);
                     if (game.getBoard().getAssets().getPiece1().getPosition().
                             getX() == i / 2 && game.getBoard().getAssets().
                             getPiece1().getPosition().getY() == j / 2) {
@@ -227,6 +228,9 @@ public class View implements Observer {
                         image.setFitWidth(72);
                         image.setFitHeight(72);
                         stackPane.getChildren().add(image);
+                        if (game.getTurn() % 2 == 0) {
+                            cells[j / 2][i / 2].setFill(Color.CRIMSON.brighter());
+                        }
                     } else if (game.getBoard().getAssets().getPiece2().getPosition().
                             getX() == i / 2 && game.getBoard().getAssets().
                             getPiece2().getPosition().getY() == j / 2) {
@@ -234,6 +238,9 @@ public class View implements Observer {
                         image.setFitWidth(72);
                         image.setFitHeight(72);
                         stackPane.getChildren().add(image);
+                        if (game.getTurn() % 2 == 1) {
+                            cells[j / 2][i / 2].setFill(Color.GREENYELLOW);
+                        }
                     }
                 } else if (i % 2 == 0) {
                     grid.add(horizontalCorridors[j / 2][i / 2], i, j);

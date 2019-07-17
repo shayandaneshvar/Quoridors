@@ -22,14 +22,6 @@ public class Triple<K, V, T> implements Serializable {
         return second;
     }
 
-    public void setSecond(V second) {
-        this.second = second;
-    }
-
-    public void setThird(T third) {
-        this.third = third;
-    }
-
     public T getThird() {
         return third;
     }

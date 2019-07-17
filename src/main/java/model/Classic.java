@@ -2,6 +2,9 @@ package model;
 
 import javafx.application.Platform;
 import javafx.scene.paint.Color;
+import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.traverse.BreadthFirstIterator;
+import org.jgrapht.traverse.GraphIterator;
 import view.View;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -23,8 +26,9 @@ public class Classic extends Game {
                 getBoard().getAssets().getPiece1().setPosition(act.getPosition());
             } else {
                 handleAction((Block) act, true);
+                getBoard().getAssets().decrementPlayer1Walls();
             }
-            handleFaultyBlocking();
+            Platform.runLater(this::handleFaultyBlocking);
             this.nextTurn();
             return;
         }
@@ -35,12 +39,12 @@ public class Classic extends Game {
                 getBoard().getAssets().getPiece2().setPosition(act.getPosition());
             } else {
                 handleAction((Block) act, false);
+                getBoard().getAssets().decrementPlayer2Walls();
             }
-            handleFaultyBlocking();
+            Platform.runLater(this::handleFaultyBlocking);
             this.nextTurn();
             return;
         }
-
     }
 
     private void handleAction(Block act, boolean firstPlayer) {
@@ -77,7 +81,37 @@ public class Classic extends Game {
     }
 
     private void handleFaultyBlocking() {
-        // TODO: 7/17/2019
+        boolean isPlayer1Surrounded = true;
+        boolean isPlayer2Surrounded = true;
+        GraphIterator<Cell, DefaultEdge> iteratorPlayer1 = new BreadthFirstIterator<>
+                (getBoard().getGameBoard(), getBoard().getCells().stream().
+                        filter(x -> x.getPosition().equals(getBoard().getAssets(
+                        ).getPiece1().getPosition())).findFirst().get());
+        while (iteratorPlayer1.hasNext()) {
+            Cell cell = iteratorPlayer1.next();
+            if (cell.getPosition().getY() == 8) {
+                isPlayer1Surrounded = false;
+                break;
+            }
+        }
+        GraphIterator<Cell, DefaultEdge> iteratorPlayer2 = new
+                BreadthFirstIterator<>(getBoard().getGameBoard(), getBoard().
+                getCells().stream().filter(x -> x.getPosition().equals(getBoard
+                ().getAssets().getPiece2().getPosition())).findFirst().get());
+        while (iteratorPlayer2.hasNext()) {
+            Cell cell = iteratorPlayer2.next();
+            if (cell.getPosition().getY() == 0) {
+                isPlayer2Surrounded = false;
+                break;
+            }
+        }
+        if (isPlayer1Surrounded || isPlayer2Surrounded) {
+            if (getTurn() % 2 == 0) {
+                View.drawGameOver(getPlayer2().getName(), Color.GREENYELLOW);
+            } else {
+                View.drawGameOver(getPlayer1().getName(), Color.CRIMSON);
+            }
+        }
     }
 
     @Override
