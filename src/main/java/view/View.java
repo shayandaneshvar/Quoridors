@@ -7,6 +7,8 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.SceneAntialiasing;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -173,6 +175,30 @@ public class View implements Observer {
         }
     }
 
+    public static void drawGameOver(String name, Color color) {
+        Stage stage = new Stage();
+        Group root = new Group();
+        Scene scene = new Scene(root, 300, 150, true,
+                SceneAntialiasing.BALANCED);
+        stage.setTitle("Game Over");
+        scene.setFill(color);
+        stage.setScene(scene);
+        stage.setResizable(false);
+        VBox vBox = new VBox();
+        root.getChildren().add(vBox);
+        Label gameOver = new Label(name + " " + "Has Won!");
+        gameOver.setPadding(new Insets(26d));
+        gameOver.setFont(Font.font("Bauhaus LT Medium", FontWeight.SEMI_BOLD,
+                20));
+        MenuItem ok = new MenuItem("OK", 200, 30);
+        vBox.getChildren().addAll(gameOver, ok);
+        vBox.setSpacing(14d);
+        vBox.setTranslateX(46d);
+        stage.show();
+        vBox.setPadding(new Insets(4d));
+        ok.setOnMouseClicked(event -> Runtime.getRuntime().exit(1));
+    }
+
 
     private void drawBoard(Game game) {
         root.getChildren().clear();
@@ -182,7 +208,7 @@ public class View implements Observer {
         game.getBoard().getAssets().getAllWalls().stream().forEach(x -> {
             if (x.getDirection() == Direction.VERTICAL) {
                 verticalCorridors[x.getPosition().getY()][x.getPosition().getX()].setFill(Color.BROWN.darker());
-                verticalCorridors[x.getPosition().getY() +1 ][x.getPosition().getX()].setFill(Color.BROWN.darker());
+                verticalCorridors[x.getPosition().getY() + 1][x.getPosition().getX()].setFill(Color.BROWN.darker());
             } else if (x.getDirection() == Direction.HORIZONTAL) {
                 horizontalCorridors[x.getPosition().getY()][x.getPosition().getX()].setFill(Color.BROWN.darker());
                 horizontalCorridors[x.getPosition().getY()][x.getPosition().getX() + 1].setFill(Color.BROWN.darker());

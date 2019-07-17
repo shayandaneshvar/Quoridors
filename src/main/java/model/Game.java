@@ -44,7 +44,7 @@ public abstract class Game implements Observable {
 
     public abstract void run();
 
-    public abstract boolean isGameOver();
+    public abstract void handleGameOver();
 
     @Override
     public void addObserver(Observer observer) {
