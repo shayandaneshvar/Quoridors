@@ -11,6 +11,15 @@ public abstract class Game implements Observable {
     private Player player1;
     private Player player2;
     private int turn;
+
+    public void nextTurn() {
+        turn++;
+    }
+
+    public int getTurn() {
+        return turn;
+    }
+
     private List<Observer> observers;
 
     public Game(Board board, Player player1, Player player2) {
@@ -34,6 +43,8 @@ public abstract class Game implements Observable {
     }
 
     public abstract void run();
+
+    public abstract boolean isGameOver();
 
     @Override
     public void addObserver(Observer observer) {

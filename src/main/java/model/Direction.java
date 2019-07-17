@@ -1,5 +1,5 @@
 package model;
 
 public enum Direction {
-    HORIZONTAL,VERTICAL;
+    HORIZONTAL,VERTICAL,NON;
 }

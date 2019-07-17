@@ -11,5 +11,5 @@ public abstract class Player {
         return name;
     }
 
-    public abstract Action nextMove();
+    public abstract Action getNextMove();
 }

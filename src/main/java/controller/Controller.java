@@ -5,8 +5,10 @@ import javafx.scene.Scene;
 import javafx.scene.SceneAntialiasing;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import model.Action;
+import model.Act;
+import model.Direction;
 import model.Game;
+import model.Position;
 import view.View;
 
 
@@ -17,6 +19,8 @@ public class Controller {
     public Controller(View view, Game game) {
         this.view = view;
         this.game = game;
+        game.addObserver(view);
+        game.updateObservers();
     }
 
     public static void initialize(Stage primaryStage) {
@@ -28,7 +32,14 @@ public class Controller {
         primaryStage.show();
         primaryStage.setTitle("Quoridors");
         scene.setFill(Color.GRAY);
-        View.drawMainMenu(scene);
+        View.drawMainMenu(scene, root);
     }
 
+    public static Triple<Act, Position, Direction> handleInputs() {
+        return View.getInputs();
+    }
+
+    public void startGame() {
+        game.run();
+    }
 }

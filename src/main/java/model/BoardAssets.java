@@ -1,5 +1,6 @@
 package model;
 
+import java.util.Collection;
 import java.util.HashSet;
 
 public class BoardAssets {
@@ -57,6 +58,13 @@ public class BoardAssets {
 
     public HashSet<Wall> getPlayer2Walls() {
         return (HashSet<Wall>) player2Walls.clone();
+    }
+
+    public HashSet<Wall> getAllWalls() {
+        HashSet<Wall> walls = new HashSet<>();
+        walls.addAll((Collection<? extends Wall>) player1Walls.clone());
+        walls.addAll((Collection<? extends Wall>) player2Walls.clone());
+        return walls;
     }
 
 }
