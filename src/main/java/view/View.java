@@ -2,12 +2,16 @@ package view;
 
 import controller.Choice;
 import controller.Triple;
+import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
@@ -42,15 +46,22 @@ public class View implements Observer {
         horizontalCorridors = new Rectangle[8][9];
         for (int j = 0; j < 9; j++) {
             for (int i = 0; i < 9; i++) {
-                cells[j][i] = new Rectangle();
+                cells[j][i] = new Rectangle(72, 72, Color.WHEAT);
+                cells[j][i].setArcHeight(12);
+                cells[j][i].setArcWidth(12);
                 if (i != 8 && j != 8) {
-                    intersections[j][i] = new Rectangle();
+                    intersections[j][i] = new Rectangle(24, 24,
+                            Color.BROWN.darker());
+                    intersections[j][i].setArcWidth(6);
+                    intersections[j][i].setArcHeight(6);
                 }
                 if (j != 8) {
-                    horizontalCorridors[j][i] = new Rectangle();
+                    horizontalCorridors[j][i] = new Rectangle(72, 24,
+                            Color.ROYALBLUE);
                 }
                 if (i != 8) {
-                    verticalCorridors[j][i] = new Rectangle();
+                    verticalCorridors[j][i] = new Rectangle(24, 72,
+                            Color.ROYALBLUE);
                 }
             }
         }
@@ -139,6 +150,7 @@ public class View implements Observer {
                     cells[j][i].setOnMouseClicked(event -> move.set(new Triple<>
                             (Act.MOVE, new Position(I, J), Direction.NON)));
                     if (move.get() != null) {
+                        System.out.println("returning " + move.get());
                         return move.get();
                     }
                     if (i != 8 && j != 8) {
@@ -153,6 +165,7 @@ public class View implements Observer {
                         });
                     }
                     if (block.get() != null) {
+                        System.out.println("returning " + block.get());
                         return block.get();
                     }
                 }
@@ -162,7 +175,49 @@ public class View implements Observer {
 
 
     private void drawBoard(Game game) {
-        // TODO: 7/16/2019
+        root.getChildren().clear();
+        GridPane grid = new GridPane();
+        grid.setPadding(new Insets(5));
+        root.getChildren().addAll(grid);
+        game.getBoard().getAssets().getAllWalls().stream().forEach(x -> {
+            if (x.getDirection() == Direction.VERTICAL) {
+                verticalCorridors[x.getPosition().getY()][x.getPosition().getX()].setFill(Color.BROWN.darker());
+                verticalCorridors[x.getPosition().getY() +1 ][x.getPosition().getX()].setFill(Color.BROWN.darker());
+            } else if (x.getDirection() == Direction.HORIZONTAL) {
+                horizontalCorridors[x.getPosition().getY()][x.getPosition().getX()].setFill(Color.BROWN.darker());
+                horizontalCorridors[x.getPosition().getY()][x.getPosition().getX() + 1].setFill(Color.BROWN.darker());
+            }
+        });
+        for (int j = 0; j < 17; j++) {
+            for (int i = 0; i < 17; i++) {
+                if (i % 2 == 0 && j % 2 == 0) {
+                    StackPane stackPane = new StackPane();
+                    grid.add(stackPane, i, j);
+                    stackPane.getChildren().add(cells[j / 2][i / 2]);
+                    if (game.getBoard().getAssets().getPiece1().getPosition().
+                            getX() == i / 2 && game.getBoard().getAssets().
+                            getPiece1().getPosition().getY() == j / 2) {
+                        ImageView image = new ImageView(new Image("1.png"));
+                        image.setFitWidth(72);
+                        image.setFitHeight(72);
+                        stackPane.getChildren().add(image);
+                    } else if (game.getBoard().getAssets().getPiece2().getPosition().
+                            getX() == i / 2 && game.getBoard().getAssets().
+                            getPiece2().getPosition().getY() == j / 2) {
+                        ImageView image = new ImageView(new Image("2.png"));
+                        image.setFitWidth(72);
+                        image.setFitHeight(72);
+                        stackPane.getChildren().add(image);
+                    }
+                } else if (i % 2 == 0) {
+                    grid.add(horizontalCorridors[j / 2][i / 2], i, j);
+                } else if (j % 2 == 0) {
+                    grid.add(verticalCorridors[j / 2][i / 2], i, j);
+                } else {
+                    grid.add(intersections[j / 2][i / 2], i, j);
+                }
+            }
+        }
     }
 
     private static class Title extends StackPane {
@@ -230,17 +285,13 @@ public class View implements Observer {
                 text.setFill(Color.DARKGREY);
                 bg.setFill(Color.BLACK);
             });
-            setOnMousePressed(event -> {
-                bg.setFill(Color.BLUE);
-            });
+            setOnMousePressed(event -> bg.setFill(Color.BLUE));
             setOnMouseReleased(event -> bg.setFill(gradient));
         }
-
     }
 
     @Override
     public void update(Observable observable) {
-        drawBoard((Game) observable);
+        Platform.runLater(() -> drawBoard((Game) observable));
     }
-
 }

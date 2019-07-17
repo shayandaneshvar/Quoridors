@@ -11,6 +11,9 @@ import model.Game;
 import model.Position;
 import view.View;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 
 public class Controller {
     private View view;
@@ -25,7 +28,7 @@ public class Controller {
 
     public static void initialize(Stage primaryStage) {
         Group root = new Group();
-        Scene scene = new Scene(root, 796, 910, true,
+        Scene scene = new Scene(root, 840, 840, true,
                 SceneAntialiasing.BALANCED);
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);
@@ -36,10 +39,20 @@ public class Controller {
     }
 
     public static Triple<Act, Position, Direction> handleInputs() {
+        System.out.println("Handling Input");
         return View.getInputs();
     }
 
     public void startGame() {
-        game.run();
+        System.out.println("startGame");
+        game.updateObservers();
+        Timer timer = new Timer();
+        TimerTask task = new TimerTask() {
+            @Override
+            public void run() {
+                game.run();
+            }
+        };
+        timer.scheduleAtFixedRate(task, 5, 1);
     }
 }
