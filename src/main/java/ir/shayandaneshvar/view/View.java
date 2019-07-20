@@ -17,7 +17,10 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.*;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.CycleMethod;
+import javafx.scene.paint.LinearGradient;
+import javafx.scene.paint.Stop;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
@@ -30,15 +33,17 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class View implements Observer {
     private Group root;
-    private Scene scene;
     private static Rectangle[][] cells;
     private static Rectangle[][] intersections;
     private static Rectangle[][] verticalCorridors;
     private static Rectangle[][] horizontalCorridors;
 
-    public View(Group root, Scene scene) {
+    public Group getRoot() {
+        return root;
+    }
+
+    public View(Group root) {
         this.root = root;
-        this.scene = scene;
         cells = new Rectangle[9][9];
         intersections = new Rectangle[8][8];
         verticalCorridors = new Rectangle[9][8];
@@ -127,9 +132,25 @@ public class View implements Observer {
             root1.getChildren().addAll(vBox1);
             vBox1.getChildren().addAll(textField, textField1, menuItem);
             menuItem.setOnMouseClicked(event1 -> {
-                Choice.handleChoice(Choice.MULTIPLAYER, root, scene,
-                        textField.getText(), textField1.getText());
-                stage.close();
+                root1.getChildren().clear();
+                scene1.setFill(Color.ORANGE);
+                MenuItem classic = new MenuItem("Classic", 200, 56);
+                MenuItem tournament = new MenuItem("Tournament", 200, 56);
+                VBox vBox2 = new VBox();
+                vBox2.setSpacing(4);
+                vBox2.setPadding(new Insets(8d));
+                root1.getChildren().addAll(vBox2);
+                vBox2.getChildren().addAll(classic, tournament);
+                classic.setOnMouseClicked(event2 -> {
+                    stage.close();
+                    Choice.handleChoice(Choice.MULTIPLAYER, root, scene,
+                            textField.getText(), textField1.getText());
+                });
+                tournament.setOnMouseClicked(event2 -> {
+                    Choice.handleChoice(Choice.TOURNAMENT, root, scene,
+                            textField.getText(), textField1.getText());
+                    stage.close();
+                });
             });
         });
         exit.setOnMouseClicked(event -> Choice.handleChoice(Choice.EXIT, root
@@ -172,12 +193,16 @@ public class View implements Observer {
         }
     }
 
-    public static void drawGameOver(String name, Color color) {
+    public static void drawGameOver(String name, Color color, boolean
+            tournament) {
         Stage stage = new Stage();
         Group root = new Group();
         Scene scene = new Scene(root, 300, 150, true,
                 SceneAntialiasing.BALANCED);
         stage.setTitle("Game Over");
+        if(!tournament){
+            stage.setTitle("Results");
+        }
         scene.setFill(color);
         stage.setScene(scene);
         stage.setResizable(false);
@@ -193,7 +218,12 @@ public class View implements Observer {
         vBox.setTranslateX(46d);
         stage.show();
         vBox.setPadding(new Insets(4d));
-        ok.setOnMouseClicked(event -> Runtime.getRuntime().exit(1));
+        ok.setOnMouseClicked(event -> {
+            stage.close();
+            if (tournament == false) {
+                Runtime.getRuntime().exit(1);
+            }
+        });
     }
 
 

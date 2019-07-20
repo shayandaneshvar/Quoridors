@@ -50,6 +50,7 @@ public class Controller {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
+                game.updateObservers();
                 game.run();
             }
         };

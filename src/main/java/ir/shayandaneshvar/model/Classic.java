@@ -17,13 +17,12 @@ public class Classic extends Game {
 
     @Override
     public void run() {
-        updateObservers();
         Platform.runLater(this::handleGameOver);
         Action act;
         if (super.getTurn() % 2 == 0 && Validator.isValid(true, act =
                         getPlayer1().getNextMove(getBoard().getAssets().getPiece1(),
                                 getBoard().getAssets().getPiece2(),
-                                getBoard().getGameBoard(),getBoard().getCells()),
+                                getBoard().getGameBoard(), getBoard().getCells()),
                 this)) {
             if (act instanceof Move) {
                 getBoard().getAssets().getPiece1().setPosition(act.getPosition());
@@ -111,10 +110,13 @@ public class Classic extends Game {
             }
         }
         if (isPlayer1Surrounded || isPlayer2Surrounded) {
+            setGameOver(true);
             if (getTurn() % 2 == 1) {
-                View.drawGameOver(getPlayer2().getName(), Color.GREENYELLOW);
+                super.setWinner(getPlayer2());
+                View.drawGameOver(getPlayer2().getName(), Color.GREENYELLOW, tournament);
             } else {
-                View.drawGameOver(getPlayer1().getName(), Color.CRIMSON);
+                super.setWinner(getPlayer1());
+                View.drawGameOver(getPlayer1().getName(), Color.CRIMSON, tournament);
             }
         }
     }
@@ -122,11 +124,15 @@ public class Classic extends Game {
     @Override
     public void handleGameOver() {
         if (getBoard().getAssets().getPiece1().getPosition().getY() == 8) {
+            setGameOver(true);
             System.out.println("Player 1 Has Won!");
-            View.drawGameOver(getPlayer1().getName(), Color.CRIMSON);
+            View.drawGameOver(getPlayer1().getName(), Color.CRIMSON, tournament);
+            super.setWinner(getPlayer1());
         } else if (getBoard().getAssets().getPiece2().getPosition().getY() == 0) {
+            setGameOver(true);
             System.out.println("Player 2 Has Won!");
-            View.drawGameOver(getPlayer2().getName(), Color.GREENYELLOW);
+            super.setWinner(getPlayer2());
+            View.drawGameOver(getPlayer2().getName(), Color.GREENYELLOW, tournament);
         }
     }
 }
