@@ -1,11 +1,11 @@
-package model;
+package ir.shayandaneshvar.model;
 
 import javafx.application.Platform;
 import javafx.scene.paint.Color;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.traverse.BreadthFirstIterator;
 import org.jgrapht.traverse.GraphIterator;
-import view.View;
+import ir.shayandaneshvar.view.View;
 
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -106,7 +106,7 @@ public class Classic extends Game {
             }
         }
         if (isPlayer1Surrounded || isPlayer2Surrounded) {
-            if (getTurn() % 2 == 0) {
+            if (getTurn() % 2 == 1) {
                 View.drawGameOver(getPlayer2().getName(), Color.GREENYELLOW);
             } else {
                 View.drawGameOver(getPlayer1().getName(), Color.CRIMSON);

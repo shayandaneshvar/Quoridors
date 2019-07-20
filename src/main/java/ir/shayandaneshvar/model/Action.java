@@ -1,4 +1,4 @@
-package model;
+package ir.shayandaneshvar.model;
 
 public abstract class Action {
     private Position position;

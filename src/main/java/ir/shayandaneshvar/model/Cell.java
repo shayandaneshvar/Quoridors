@@ -1,4 +1,4 @@
-package model;
+package ir.shayandaneshvar.model;
 
 public class Cell extends BoardItem {
 

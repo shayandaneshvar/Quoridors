@@ -1,10 +1,9 @@
-package model;
+package ir.shayandaneshvar.model;
 
-public class Wall extends BoardItem {
-
+public class Block extends Action {
     private Direction direction;
 
-    public Wall(Position position, Direction direction) {
+    public Block(Position position, Direction direction) {
         super(position);
         this.direction = direction;
     }

@@ -1,4 +1,4 @@
-package model;
+package ir.shayandaneshvar.model;
 
 import javafx.scene.paint.Color;
 

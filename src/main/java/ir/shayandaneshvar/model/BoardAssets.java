@@ -1,4 +1,4 @@
-package model;
+package ir.shayandaneshvar.model;
 
 import java.util.Collection;
 import java.util.HashSet;

@@ -1,15 +1,15 @@
-package controller;
+package ir.shayandaneshvar.controller;
 
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.SceneAntialiasing;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import model.Act;
-import model.Direction;
-import model.Game;
-import model.Position;
-import view.View;
+import ir.shayandaneshvar.model.Act;
+import ir.shayandaneshvar.model.Direction;
+import ir.shayandaneshvar.model.Game;
+import ir.shayandaneshvar.model.Position;
+import ir.shayandaneshvar.view.View;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -55,4 +55,5 @@ public class Controller {
         };
         timer.scheduleAtFixedRate(task, 5, 1);
     }
+
 }

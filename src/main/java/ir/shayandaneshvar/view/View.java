@@ -1,7 +1,8 @@
-package view;
+package ir.shayandaneshvar.view;
 
-import controller.Choice;
-import controller.Triple;
+import ir.shayandaneshvar.controller.Choice;
+import ir.shayandaneshvar.controller.Triple;
+import ir.shayandaneshvar.model.*;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -16,17 +17,13 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
-import javafx.scene.paint.CycleMethod;
-import javafx.scene.paint.LinearGradient;
-import javafx.scene.paint.Stop;
+import javafx.scene.paint.*;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import model.*;
 
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -295,11 +292,19 @@ public class View implements Observer {
          * @param height
          */
         public MenuItem(String name, int width, int height) {
+//            RadialGradient radialGradient = new RadialGradient(Math.PI, 100,
+//                    1, 1
+//                    , 0.5,
+//                    true,
+//                    CycleMethod.NO_CYCLE, new Stop(0, Color.TRANSPARENT),
+//                    new Stop(0.1, Color.BLACK),
+//                    new Stop(0.9, Color.BLACK),
+//                    new Stop(1, Color.TRANSPARENT));
             LinearGradient gradient = new LinearGradient(0, 0, 1, 0, true,
-                    CycleMethod.NO_CYCLE, new Stop(0, Color.GREENYELLOW),
+                    CycleMethod.NO_CYCLE, new Stop(0, Color.TRANSPARENT),
                     new Stop(0.1, Color.BLACK),
                     new Stop(0.9, Color.BLACK),
-                    new Stop(1, Color.GREENYELLOW));
+                    new Stop(1, Color.TRANSPARENT));
             Rectangle bg = new Rectangle(width, height);
             bg.setOpacity(0.45);
             Text text = new Text(name);

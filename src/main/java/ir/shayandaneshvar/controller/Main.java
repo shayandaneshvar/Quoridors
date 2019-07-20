@@ -1,4 +1,4 @@
-package controller;
+package ir.shayandaneshvar.controller;
 
 import javafx.application.Application;
 import javafx.stage.Stage;

@@ -1,4 +1,4 @@
-package controller;
+package ir.shayandaneshvar.controller;
 
 import java.io.Serializable;
 import java.util.Objects;

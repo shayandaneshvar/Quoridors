@@ -1,8 +1,8 @@
-package model;
+package ir.shayandaneshvar.model;
 
 
-import controller.Controller;
-import controller.Triple;
+import ir.shayandaneshvar.controller.Controller;
+import ir.shayandaneshvar.controller.Triple;
 
 public class HumanPlayer extends Player {
 

@@ -1,6 +1,6 @@
-package model;
+package ir.shayandaneshvar.model;
 
-import view.Observer;
+import ir.shayandaneshvar.view.Observer;
 
 public interface Observable {
 

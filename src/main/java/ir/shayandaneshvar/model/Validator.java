@@ -1,4 +1,4 @@
-package model;
+package ir.shayandaneshvar.model;
 
 import java.util.HashSet;
 import java.util.Optional;
@@ -70,10 +70,10 @@ public final class Validator {
                                        Classic game) {
         System.out.println(player);
         System.out.println(still);
-        if (action.getPosition().getX() == player.getPosition().getX() &&
-                action.getPosition().getY() == player.getPosition().getY() &&
-                action.getPosition().getX() == still.getPosition().getX() &&
-                action.getPosition().getY() == still.getPosition().getY()) {
+        if ((action.getPosition().getX() == player.getPosition().getX() &&
+                action.getPosition().getY() == player.getPosition().getY()) ||
+                (action.getPosition().getX() == still.getPosition().getX() &&
+                        action.getPosition().getY() == still.getPosition().getY())) {
             System.out.println("1");
             return false;
         }

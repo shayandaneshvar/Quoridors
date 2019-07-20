@@ -1,6 +1,6 @@
-package model;
+package ir.shayandaneshvar.model;
 
-import view.Observer;
+import ir.shayandaneshvar.view.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
