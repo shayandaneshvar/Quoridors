@@ -1,11 +1,11 @@
 package ir.shayandaneshvar.model;
 
+import ir.shayandaneshvar.view.View;
 import javafx.application.Platform;
 import javafx.scene.paint.Color;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.traverse.BreadthFirstIterator;
 import org.jgrapht.traverse.GraphIterator;
-import ir.shayandaneshvar.view.View;
 
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -21,7 +21,10 @@ public class Classic extends Game {
         Platform.runLater(this::handleGameOver);
         Action act;
         if (super.getTurn() % 2 == 0 && Validator.isValid(true, act =
-                getPlayer1().getNextMove(), this)) {
+                        getPlayer1().getNextMove(getBoard().getAssets().getPiece1(),
+                                getBoard().getAssets().getPiece2(),
+                                getBoard().getGameBoard(),getBoard().getCells()),
+                this)) {
             if (act instanceof Move) {
                 getBoard().getAssets().getPiece1().setPosition(act.getPosition());
             } else {
@@ -33,7 +36,9 @@ public class Classic extends Game {
             return;
         }
         if (super.getTurn() % 2 == 1 && Validator.isValid(false, act =
-                        getPlayer2().getNextMove(),
+                        getPlayer2().getNextMove(getBoard().getAssets().getPiece2(),
+                                getBoard().getAssets().getPiece1(),
+                                getBoard().getGameBoard(), getBoard().getCells()),
                 this)) {
             if (act instanceof Move) {
                 getBoard().getAssets().getPiece2().setPosition(act.getPosition());

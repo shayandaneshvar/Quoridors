@@ -53,7 +53,6 @@ public class Controller {
                 game.run();
             }
         };
-        timer.scheduleAtFixedRate(task, 5, 1);
+        timer.scheduleAtFixedRate(task, 5, 700);
     }
-
 }

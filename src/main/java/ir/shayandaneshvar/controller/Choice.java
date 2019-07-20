@@ -10,18 +10,19 @@ public enum Choice {
 
     public static void handleChoice(Choice choice, Group root, Scene scene,
                                     String p1, String p2) {
-        Controller controller = null;
+        Controller controller;
         Player player1 = new HumanPlayer(p1);
         Player player2 = null;
-//        ir.shayandaneshvar.controller.startView();
+        //        ir.shayandaneshvar.controller.startView();
         switch (choice) {
             case EASY:
                 player2 = new RandomPlayer("Random Player");
                 break;
             case MEDIUM:
-//                ir.shayandaneshvar.controller.medium();
+                player2 = new MediumAI("Computer");
                 break;
             case HARD:
+                // TODO: 7/20/2019  
 //                ir.shayandaneshvar.controller.hard();
                 break;
             case MULTIPLAYER:

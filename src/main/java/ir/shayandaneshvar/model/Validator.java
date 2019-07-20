@@ -36,6 +36,11 @@ public final class Validator {
         if (walls.stream().filter(x -> x.getPosition().equals(action.getPosition())).findAny().isPresent()) {
             return false;
         }
+        if (action.getPosition().getX() > 7 || action.getPosition().getX() < 0
+                || action.getPosition().getY() > 7 || action.getPosition().getY(
+        ) < 0) {
+            return false;
+        }
         //1-2
         //3-4
         Cell first = game.getBoard().getCells().stream().filter(x -> x.
@@ -170,7 +175,7 @@ public final class Validator {
                 (current.getPosition().getY() + next.getPosition().getY()));
     }
 
-    private static boolean isInRange(int x1, int x2, int y1, int y2, int range) {
+    public static boolean isInRange(int x1, int x2, int y1, int y2, int range) {
         int difX = Math.abs(x1 - x2);
         int difY = Math.abs(y1 - y2);
         if ((difX + difY + Math.abs(difX - difY)) / 2 <= range) {

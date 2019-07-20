@@ -20,6 +20,9 @@ public enum Sake {
                 y--;
                 break;
         }
+        System.out.println("---------------");
+        System.out.println(x + "," + y);
+        System.out.println("---------------");
         return new Position(x, y);
     }
 }

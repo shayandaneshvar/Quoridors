@@ -21,4 +21,8 @@ public class Position extends Pair<Integer, Integer> {
         return super.getValue();
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
