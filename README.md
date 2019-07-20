@@ -5,3 +5,4 @@ Design Patterns Used Till Now:
   1-MVC
   2-Observer
   3-Command
+  4-Composite
