@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="300e70af-24f6-4573-ac9c-713ca2433b36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java" afterDir="false" />
-    </list>
+    <list default="true" id="300e70af-24f6-4573-ac9c-713ca2433b36" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-748">
+            <state relative-caret-position="145">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,11 +36,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="957">
-              <caret line="39" column="62" lean-forward="true" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1819#1820#0" expanded="true" />
-                <element signature="e#1848#1849#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -85,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -93,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-574">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="58">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="203">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="116">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardAssets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="522">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <element signature="e#368#369#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
@@ -223,9 +213,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-2" />
+    <option name="x" value="-2" />
     <option name="width" value="1920" />
-    <option name="height" value="1042" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -235,8 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +293,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,17 +392,18 @@
       <workItem from="1563596126073" duration="29746000" />
       <workItem from="1563647293763" duration="1367000" />
       <workItem from="1563682332504" duration="2373000" />
+      <workItem from="1563691101995" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85015000" />
+    <option name="totallyTimeSpent" value="85673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1042" extended-state="0" />
+    <frame x="-2" y="0" width="1920" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2767666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2805139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -989,11 +980,12 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="675.5" y="424.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="676.0" y="424.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Overview</VISIBILITY>
         </state>
       </provider>
@@ -1006,11 +998,12 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="675.5" y="425.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="676.0" y="425.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Overview</VISIBILITY>
         </state>
       </provider>
@@ -1052,7 +1045,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.8540598290598292" x="687.9281961471102" y="477.6232174130597" />
+          <settings layout="Hierarchic Group" zoom="0.8540598290598292" x="688.0" y="478.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1072,7 +1065,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="159.0" y="82.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="159.0" y="83.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1269,19 +1262,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardAssets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="145">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1289,11 +1275,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
-          <caret line="39" column="62" lean-forward="true" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1315,34 +1299,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="58">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1351,10 +1315,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="203">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardAssets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1362,7 +1353,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
