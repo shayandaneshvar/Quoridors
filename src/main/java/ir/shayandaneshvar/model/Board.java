@@ -29,15 +29,15 @@ public class Board {
             int l = k;
             for (int i = 0; i < 9; i++) {
                 int j = i;
-                Cell main =
-                        cells.stream().filter(x -> x.getPosition().getX() == j && x.getPosition().getY() == l).findAny().get();
+                Cell main = cells.stream().filter(x -> x.getPosition().getX() ==
+                        j && x.getPosition().getY() == l).findAny().get();
                 if (k != 8) {
                     gameBoard.addEdge(main, cells.stream().filter(x -> x.getPosition().
                             getX() == j && x.getPosition().getY() == l + 1).findAny().get());
                 }
                 if (i != 8) {
-                    gameBoard.addEdge(main,
-                            cells.stream().filter(x -> x.getPosition().getX() == j + 1 && x.getPosition().getY() == l).findAny().get());
+                    gameBoard.addEdge(main, cells.stream().filter(x -> x.
+                            getPosition().getX() == j + 1 && x.getPosition().getY() == l).findAny().get());
                 }
             }
         }

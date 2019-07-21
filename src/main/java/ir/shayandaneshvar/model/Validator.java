@@ -5,7 +5,6 @@ import java.util.Optional;
 
 public final class Validator {
 
-
     public static boolean isValid(boolean turn1, Action action, Classic game) {
         if (action instanceof Move) {
             System.out.println("Validating Move");
@@ -33,7 +32,7 @@ public final class Validator {
     private static boolean isBlockValid(Block action,
                                         Classic game) {
         HashSet<Wall> walls = game.getBoard().getAssets().getAllWalls();
-        if (walls.stream().filter(x -> x.getPosition().equals(action.getPosition())).findAny().isPresent()) {
+        if (walls.stream().anyMatch(x -> x.getPosition().equals(action.getPosition()))) {
             return false;
         }
         if (action.getPosition().getX() > 7 || action.getPosition().getX() < 0
@@ -178,10 +177,7 @@ public final class Validator {
     public static boolean isInRange(int x1, int x2, int y1, int y2, int range) {
         int difX = Math.abs(x1 - x2);
         int difY = Math.abs(y1 - y2);
-        if ((difX + difY + Math.abs(difX - difY)) / 2 <= range) {
-            return true;
-        }
-        return false;
+        return (difX + difY + Math.abs(difX - difY)) / 2 <= range;
     }
 
     private Validator() {

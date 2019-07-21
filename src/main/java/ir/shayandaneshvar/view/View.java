@@ -220,7 +220,7 @@ public class View implements Observer {
         vBox.setPadding(new Insets(4d));
         ok.setOnMouseClicked(event -> {
             stage.close();
-            if (tournament == false) {
+            if (!tournament) {
                 Runtime.getRuntime().exit(1);
             }
         });
