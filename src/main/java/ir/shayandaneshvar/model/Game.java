@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public abstract class Game implements Observable {
+public abstract class Game implements Observable, Runnable {
     protected boolean tournament;
     private Board board;
     private Player player1;
@@ -66,7 +66,7 @@ public abstract class Game implements Observable {
     public Player getPlayer2() {
         return player2;
     }
-
+    @Override
     public abstract void run();
 
     public abstract void handleGameOver();
