@@ -6,7 +6,7 @@ import org.jgrapht.graph.DefaultEdge;
 import java.util.List;
 import java.util.Objects;
 
-public abstract class Player {
+public abstract class Player implements Runnable {
     private String name;
 
     public Player(String name) {
@@ -29,6 +29,9 @@ public abstract class Player {
     public int hashCode() {
         return Objects.hash(name);
     }
+
+    @Override
+    public abstract void run();
 
     public abstract Action getNextMove(Piece player, Piece still, Graph<Cell,
             DefaultEdge> board, List<Cell> cells);

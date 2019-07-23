@@ -47,8 +47,8 @@ public class Board {
         return gameBoard;
     }
 
-    public List<Cell> getCells() {
-        return cells;
+    public ArrayList<Cell> getCells() {
+        return (ArrayList<Cell>) ((ArrayList<Cell>) cells).clone();
     }
 
     public BoardAssets getAssets() {

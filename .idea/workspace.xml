@@ -7,6 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300e70af-24f6-4573-ac9c-713ca2433b36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/MediumAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/MediumAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/RandomPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/RandomPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,30 +23,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1428#1591#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            <state relative-caret-position="184">
+              <caret line="219" column="40" lean-forward="true" selection-start-line="219" selection-start-column="40" selection-end-line="219" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +57,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/MediumAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="378">
+              <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ir.shayandaneshvar.model.MediumAI">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ir.shayandaneshvar.model.MediumAI</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+                <node x="60.5" y="258.0">ir.shayandaneshvar.model.MediumAI</node>
+                <node x="71.5" y="172.0">ir.shayandaneshvar.model.Player</node>
+                <node x="60.5" y="86.0">java.lang.Runnable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ir.shayandaneshvar.model.Player" target="java.lang.Runnable">
+                  <point x="0.0" y="-18.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+                  <point x="0.0" y="-18.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Player">
+                  <point x="0.0" y="-18.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-309.0" y="113.5" />
+              <SelectedNodes>
+                <node>ir.shayandaneshvar.model.MediumAI</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/RandomPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-106">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,53 +131,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Classic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="358">
+              <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#Classic#0;class#Classic#0" />
+                <element signature="method#run#0;class#Classic#0" />
+                <element signature="e#912#1301#1" />
+                <element signature="e#951#1049#1" />
+                <element signature="e#1055#1183#1" />
+                <element signature="e#1632#2022#1" />
+                <element signature="e#1671#1769#1" />
+                <element signature="e#1775#1904#1" />
+                <element signature="method#handleAction#0;class#Classic#0" />
+                <element signature="e#3187#3328#1" />
+                <element signature="e#3389#3530#1" />
+                <element signature="e#3556#3709#1" />
+                <element signature="e#3715#3868#1" />
+                <element signature="e#4365#4556#1" />
+                <element signature="e#4463#4546#1" />
+                <element signature="e#4899#5090#1" />
+                <element signature="e#4997#5080#1" />
+                <element signature="e#5374#5522#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="177">
+              <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1428#1591#0" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/HumanPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="-27">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardAssets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="145">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="e#368#369#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
@@ -131,7 +197,18 @@
                 <element signature="e#579#580#0" expanded="true" />
                 <element signature="e#622#623#0" expanded="true" />
                 <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Piece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -190,31 +267,54 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Triple.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Action.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Sake.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/RandomPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Cell.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/MediumAI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Classic.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Tournament.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Choice.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/Observer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Piece.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Direction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/RandomPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/MediumAI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java" />
       </list>
     </option>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="LqzmnqBP" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Quoridors" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Quoridors" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Quoridors" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -226,6 +326,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,14 +390,19 @@
             </path>
             <path>
               <item name="Quoridors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quoridors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quoridors" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,13 +425,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15091464" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="cmd" />
+      <command value="git status" />
+      <command value="git add ." />
     </option>
   </component>
   <component name="RunDashboard">
@@ -399,17 +510,22 @@
       <workItem from="1563647293763" duration="1367000" />
       <workItem from="1563682332504" duration="2373000" />
       <workItem from="1563691101995" duration="2581000" />
+      <workItem from="1563770688713" duration="2355000" />
+      <workItem from="1563776056833" duration="747000" />
+      <workItem from="1563796039253" duration="1730000" />
+      <workItem from="1563810526038" duration="180000" />
+      <workItem from="1563876097809" duration="4677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87596000" />
+    <option name="totallyTimeSpent" value="97285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2805139" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26873663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -419,29 +535,31 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32822758" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33040616" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33040616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32930845" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.32976446" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" id="Line Counter" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Line Counter" order="6" weight="0.32976446" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32976446" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Coding Counter" order="10" />
+      <window_info anchor="right" id="Coding Counter" order="10" weight="0.32976446" />
+      <window_info anchor="right" id="Cargo" order="11" weight="0.32976446" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,27 +570,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/TimerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2887">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jheaps-0.10.jar!/org/jheaps/tree/PairingHeap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -696,30 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4808">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Tournament.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,88 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/RandomPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/HumanPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,114 +853,6 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardAssets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/MediumAI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Classic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1008,26 +899,1286 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.10000000000000014" x="5262.912974280614" y="980.75" />
+          <settings layout="Hierarchic Group" zoom="0.10000000000000014" x="5263.0" y="981.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Tournament.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ir.shayandaneshvar.model.Act">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ir.shayandaneshvar.model.Act</OriginalElement>
+          <nodes>
+            <node x="525.0" y="511.0">ir.shayandaneshvar.model.Direction</node>
+            <node x="529.0" y="845.0">ir.shayandaneshvar.view.View</node>
+            <node x="171.5" y="172.0">ir.shayandaneshvar.model.Game</node>
+            <node x="378.0" y="678.0">ir.shayandaneshvar.model.HumanPlayer</node>
+            <node x="320.5" y="845.0">ir.shayandaneshvar.controller.Main</node>
+            <node x="703.0" y="511.0">ir.shayandaneshvar.controller.Choice</node>
+            <node x="698.5" y="592.0">ir.shayandaneshvar.model.BoardItem</node>
+            <node x="60.5" y="86.0">java.lang.Runnable</node>
+            <node x="282.0" y="759.0">javafx.application.Application</node>
+            <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="480.0" y="425.0">java.lang.Enum</node>
+            <node x="849.0" y="678.0">ir.shayandaneshvar.model.Piece</node>
+            <node x="211.0" y="678.0">ir.shayandaneshvar.model.MediumAI</node>
+            <node x="726.0" y="678.0">ir.shayandaneshvar.model.Wall</node>
+            <node x="0.0" y="425.0">ir.shayandaneshvar.controller.Triple</node>
+            <node x="214.0" y="926.0">ir.shayandaneshvar.model.Validator</node>
+            <node x="123.0" y="511.0">ir.shayandaneshvar.model.Position</node>
+            <node x="224.75" y="258.0">ir.shayandaneshvar.model.Tournament</node>
+            <node x="417.0" y="926.0">ir.shayandaneshvar.model.Board</node>
+            <node x="134.0" y="845.0">ir.shayandaneshvar.model.Move</node>
+            <node x="145.0" y="425.0">javafx.util.Pair</node>
+            <node x="699.0" y="759.0">ir.shayandaneshvar.model.BoardAssets</node>
+            <node x="413.0" y="511.0">ir.shayandaneshvar.model.Act</node>
+            <node x="227.5" y="86.0">ir.shayandaneshvar.model.Observable</node>
+            <node x="0.0" y="926.0">ir.shayandaneshvar.controller.Controller</node>
+            <node x="78.52499999999998" y="339.0">java.io.Serializable</node>
+            <node x="0.0" y="678.0">ir.shayandaneshvar.model.RandomPlayer</node>
+            <node x="0.0" y="845.0">ir.shayandaneshvar.model.Block</node>
+            <node x="68.75" y="258.0">ir.shayandaneshvar.model.Classic</node>
+            <node x="58.75" y="759.0">ir.shayandaneshvar.model.Action</node>
+            <node x="603.0" y="678.0">ir.shayandaneshvar.model.Cell</node>
+            <node x="472.75" y="339.0">java.lang.Comparable</node>
+            <node x="222.0" y="592.0">ir.shayandaneshvar.model.Player</node>
+            <node x="290.0" y="511.0">ir.shayandaneshvar.model.Sake</node>
+            <node x="507.0" y="759.0">ir.shayandaneshvar.view.Observer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ir.shayandaneshvar.model.Sake" target="java.lang.Enum">
+              <point x="0.0" y="-18.0" />
+              <point x="341.5" y="481.0" />
+              <point x="492.875" y="481.0" />
+              <point x="-38.625" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.view.Observer">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Block" target="ir.shayandaneshvar.model.Action">
+              <point x="0.0" y="-18.0" />
+              <point x="57.0" y="820.0" />
+              <point x="90.0" y="820.0" />
+              <point x="-31.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Move" target="ir.shayandaneshvar.model.Action">
+              <point x="0.0" y="-18.0" />
+              <point x="185.5" y="820.0" />
+              <point x="152.5" y="820.0" />
+              <point x="31.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Game" target="java.lang.Runnable">
+              <point x="-25.75" y="-18.0" />
+              <point x="197.25" y="147.0" />
+              <point x="134.0" y="147.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Game">
+              <point x="0.0" y="-18.0" />
+              <point x="309.25" y="233.0" />
+              <point x="248.75" y="233.0" />
+              <point x="25.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Piece" target="ir.shayandaneshvar.model.BoardItem">
+              <point x="0.0" y="-18.0" />
+              <point x="906.0" y="653.0" />
+              <point x="830.1666666666666" y="653.0" />
+              <point x="52.66666666666663" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="java.lang.Enum">
+              <point x="0.0" y="-18.0" />
+              <point x="765.5" y="481.0" />
+              <point x="570.125" y="481.0" />
+              <point x="38.625" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Triple" target="java.io.Serializable">
+              <point x="0.0" y="-18.0" />
+              <point x="62.5" y="400.0" />
+              <point x="110.35833333333329" y="400.0" />
+              <point x="-63.66666666666666" y="18.0" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.lang.Comparable">
+              <point x="25.75" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Player">
+              <point x="0.0" y="-18.0" />
+              <point x="468.0" y="653.0" />
+              <point x="326.16666666666663" y="653.0" />
+              <point x="41.66666666666663" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Main" target="javafx.application.Application">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Direction" target="java.lang.Enum">
+              <point x="0.0" y="-18.0" />
+              <point x="604.0" y="491.0" />
+              <point x="544.375" y="491.0" />
+              <point x="12.875" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Wall" target="ir.shayandaneshvar.model.BoardItem">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Cell" target="ir.shayandaneshvar.model.BoardItem">
+              <point x="0.0" y="-18.0" />
+              <point x="654.5" y="653.0" />
+              <point x="724.8333333333334" y="653.0" />
+              <point x="-52.66666666666663" y="18.0" />
+            </edge>
+            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Player">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Act" target="java.lang.Enum">
+              <point x="0.0" y="-18.0" />
+              <point x="459.0" y="491.0" />
+              <point x="518.625" y="491.0" />
+              <point x="-12.875" y="18.0" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.io.Serializable">
+              <point x="-25.75" y="-18.0" />
+              <point x="505.75" y="400.0" />
+              <point x="237.6916666666666" y="400.0" />
+              <point x="63.66666666666663" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Position" target="javafx.util.Pair">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Observable">
+              <point x="25.75" y="-18.0" />
+              <point x="248.75" y="147.0" />
+              <point x="312.0" y="147.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Player">
+              <point x="0.0" y="-18.0" />
+              <point x="95.5" y="653.0" />
+              <point x="242.83333333333334" y="653.0" />
+              <point x="-41.66666666666666" y="18.0" />
+            </edge>
+            <edge source="javafx.util.Pair" target="java.io.Serializable">
+              <point x="0.0" y="-18.0" />
+              <point x="196.5" y="400.0" />
+              <point x="174.02499999999998" y="400.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Game">
+              <point x="0.0" y="-18.0" />
+              <point x="136.75" y="233.0" />
+              <point x="197.25" y="233.0" />
+              <point x="-25.75" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8635437881873728" x="-38.0" y="268.0" />
+          <SelectedNodes>
+            <node>ir.shayandaneshvar.model.Action</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Act.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ir.shayandaneshvar.model.HumanPlayer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ir.shayandaneshvar.model.HumanPlayer</OriginalElement>
+          <nodes>
+            <node x="1504.8252249864895" y="166.0">ir.shayandaneshvar.model.Direction</node>
+            <node x="989.6849587883535" y="1444.0">ir.shayandaneshvar.view.View</node>
+            <node x="332.89930555555543" y="910.0">ir.shayandaneshvar.model.Game</node>
+            <node x="1060.7801968835915" y="1202.0">ir.shayandaneshvar.model.HumanPlayer</node>
+            <node x="909.3635302169248" y="1298.0">ir.shayandaneshvar.controller.Choice</node>
+            <node x="1015.4349587883535" y="1646.0">ir.shayandaneshvar.controller.Main</node>
+            <node x="648.5752249864897" y="166.0">ir.shayandaneshvar.model.BoardItem</node>
+            <node x="708.7418916531564" y="292.0">ir.shayandaneshvar.model.Piece</node>
+            <node x="1163.4293916531562" y="910.0">ir.shayandaneshvar.model.MediumAI</node>
+            <node x="864.1993055555554" y="292.0">ir.shayandaneshvar.model.Wall</node>
+            <node x="1678.1940025252522" y="1056.0">ir.shayandaneshvar.controller.Triple</node>
+            <node x="968.6769496478591" y="910.0">ir.shayandaneshvar.model.Validator</node>
+            <node x="205.34375" y="1202.0">ir.shayandaneshvar.model.Tournament</node>
+            <node x="1259.158558319823" y="0.0">ir.shayandaneshvar.model.Position</node>
+            <node x="377.5993055555555" y="604.0">ir.shayandaneshvar.model.Board</node>
+            <node x="1135.7801968835915" y="604.0">ir.shayandaneshvar.model.Move</node>
+            <node x="569.5093635502582" y="438.0">ir.shayandaneshvar.model.BoardAssets</node>
+            <node x="1846.1940025252522" y="1056.0">ir.shayandaneshvar.model.Act</node>
+            <node x="21.5" y="604.0">ir.shayandaneshvar.model.Observable</node>
+            <node x="982.4349587883535" y="1560.0">ir.shayandaneshvar.controller.Controller</node>
+            <node x="1473.7801968835915" y="604.0">ir.shayandaneshvar.model.Block</node>
+            <node x="1374.5326388888886" y="910.0">ir.shayandaneshvar.model.RandomPlayer</node>
+            <node x="917.6968635502582" y="1056.0">ir.shayandaneshvar.model.Classic</node>
+            <node x="1284.6826388888887" y="438.0">ir.shayandaneshvar.model.Action</node>
+            <node x="446.5093635502582" y="438.0">ir.shayandaneshvar.model.Cell</node>
+            <node x="1995.5849116161614" y="166.0">ir.shayandaneshvar.model.Sake</node>
+            <node x="770.5093635502582" y="604.0">ir.shayandaneshvar.model.Player</node>
+            <node x="101.75" y="438.0">ir.shayandaneshvar.view.Observer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Piece">
+              <point x="9.549999999999955" y="-18.0" />
+              <point x="1479.5826388888886" y="660.0" />
+              <point x="1441.2801968835915" y="660.0" />
+              <point x="1441.2801968835915" y="348.0" />
+              <point x="815.6168916531564" y="348.0" />
+              <point x="49.875" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.BoardAssets" target="ir.shayandaneshvar.model.Piece">
+              <point x="-67.5" y="-18.0" />
+              <point x="592.0093635502582" y="388.0" />
+              <point x="730.1168916531564" y="388.0" />
+              <point x="-35.625" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Position">
+              <point x="-81.81818181818176" y="-18.0" />
+              <point x="1068.9620150654098" y="1152.0" />
+              <point x="0.0" y="1152.0" />
+              <point x="0.0" y="56.0" />
+              <point x="1262.833558319823" y="56.0" />
+              <point x="-69.82500000000005" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.Observer" target="ir.shayandaneshvar.model.Observable">
+              <point x="-12.25" y="18.0" />
+              <point x="163.0" y="584.0" />
+              <point x="148.25" y="584.0" />
+              <point x="42.25" y="-18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.MediumAI">
+              <point x="35.714285714285666" y="-18.0" />
+              <point x="1007.5778159312106" y="1268.0" />
+              <point x="1667.6940025252522" y="1268.0" />
+              <point x="1667.6940025252522" y="1006.0" />
+              <point x="1236.9293916531562" y="1006.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.BoardAssets">
+              <point x="38.0" y="-18.0" />
+              <point x="472.5993055555555" y="574.0" />
+              <point x="659.5093635502582" y="574.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Player">
+              <point x="-17.85714285714289" y="-18.0" />
+              <point x="954.0063873597819" y="1258.0" />
+              <point x="568.6493055555554" y="1258.0" />
+              <point x="568.6493055555554" y="860.0" />
+              <point x="810.2820908229854" y="860.0" />
+              <point x="-22.727272727272748" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Direction">
+              <point x="62.33333333333337" y="-18.0" />
+              <point x="1048.0301968835915" y="1036.0" />
+              <point x="1617.3076388888887" y="1036.0" />
+              <point x="1617.3076388888887" y="272.0" />
+              <point x="1612.5524977137625" y="272.0" />
+              <point x="28.727272727272748" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Observable" target="ir.shayandaneshvar.view.Observer">
+              <point x="-42.25" y="-18.0" />
+              <point x="63.75" y="584.0" />
+              <point x="138.5" y="584.0" />
+              <point x="-36.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Player">
+              <point x="-85.95000000000005" y="-18.0" />
+              <point x="1384.0826388888886" y="710.0" />
+              <point x="878.4639090048037" y="710.0" />
+              <point x="45.454545454545496" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Game">
+              <point x="-62.33333333333337" y="-18.0" />
+              <point x="923.3635302169248" y="1016.0" />
+              <point x="418.7326388888887" y="1016.0" />
+              <point x="34.333333333333314" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Action">
+              <point x="39.66666666666663" y="-18.0" />
+              <point x="1025.3635302169248" y="1016.0" />
+              <point x="1323.5326388888886" y="1016.0" />
+              <point x="1323.5326388888886" y="564.0" />
+              <point x="1353.4326388888887" y="564.0" />
+              <point x="6.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Cell">
+              <point x="-70.22222222222217" y="-18.0" />
+              <point x="977.454727425637" y="800.0" />
+              <point x="595.3168916531564" y="800.0" />
+              <point x="595.3168916531564" y="544.0" />
+              <point x="513.4593635502582" y="544.0" />
+              <point x="15.450000000000045" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Game">
+              <point x="-18.39285714285711" y="-18.0" />
+              <point x="1022.7921016454964" y="1374.0" />
+              <point x="421.34375" y="1374.0" />
+              <point x="421.34375" y="1026.0" />
+              <point x="407.28819444444434" y="1026.0" />
+              <point x="22.888888888888914" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Cell">
+              <point x="-65.33333333333326" y="-18.0" />
+              <point x="1171.596058319823" y="760.0" />
+              <point x="605.6168916531564" y="760.0" />
+              <point x="605.6168916531564" y="534.0" />
+              <point x="523.7593635502582" y="534.0" />
+              <point x="25.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Game">
+              <point x="-31.6875" y="-18.0" />
+              <point x="258.15625" y="1172.0" />
+              <point x="278.40625" y="1172.0" />
+              <point x="278.40625" y="1016.0" />
+              <point x="350.0659722222222" y="1016.0" />
+              <point x="-34.33333333333326" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.Piece">
+              <point x="-38.0" y="-18.0" />
+              <point x="396.5993055555555" y="494.0" />
+              <point x="364.0743055555554" y="494.0" />
+              <point x="364.0743055555554" y="378.0" />
+              <point x="715.8668916531564" y="378.0" />
+              <point x="-49.875" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Cell">
+              <point x="-47.75" y="-18.0" />
+              <point x="1422.2826388888886" y="690.0" />
+              <point x="993.7593635502582" y="690.0" />
+              <point x="993.7593635502582" y="494.0" />
+              <point x="544.3593635502582" y="494.0" />
+              <point x="46.35000000000002" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Move" target="ir.shayandaneshvar.model.Position">
+              <point x="-34.33333333333326" y="-18.0" />
+              <point x="1152.9468635502583" y="504.0" />
+              <point x="1178.4801968835916" y="504.0" />
+              <point x="1178.4801968835916" y="146.0" />
+              <point x="1328.983558319823" y="146.0" />
+              <point x="-3.6749999999999545" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.view.Observer">
+              <point x="-29.428571428571445" y="-18.0" />
+              <point x="354.970734126984" y="880.0" />
+              <point x="234.40625" y="880.0" />
+              <point x="234.40625" y="584.0" />
+              <point x="212.0" y="584.0" />
+              <point x="36.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Classic">
+              <point x="39.5" y="18.0" />
+              <point x="1087.1769496478591" y="996.0" />
+              <point x="1002.6968635502582" y="996.0" />
+              <point x="17.0" y="-18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Player">
+              <point x="44.14285714285711" y="-18.0" />
+              <point x="428.54216269841254" y="840.0" />
+              <point x="787.5548180957127" y="840.0" />
+              <point x="-45.454545454545496" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Direction">
+              <point x="65.4545454545455" y="-18.0" />
+              <point x="1216.234742338137" y="1172.0" />
+              <point x="1824.6940025252522" y="1172.0" />
+              <point x="1824.6940025252522" y="272.0" />
+              <point x="1626.9161340773985" y="272.0" />
+              <point x="43.09090909090901" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.view.Observer">
+              <point x="-47.821428571428555" y="-18.0" />
+              <point x="993.3635302169248" y="1414.0" />
+              <point x="11.0" y="1414.0" />
+              <point x="11.0" y="574.0" />
+              <point x="114.0" y="574.0" />
+              <point x="-61.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Observable">
+              <point x="-40.46428571428572" y="-18.0" />
+              <point x="1000.7206730740677" y="1404.0" />
+              <point x="63.75" y="1404.0" />
+              <point x="-42.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.view.Observer">
+              <point x="-73.9375" y="-18.0" />
+              <point x="215.90625" y="1182.0" />
+              <point x="201.0" y="1182.0" />
+              <point x="201.0" y="584.0" />
+              <point x="187.5" y="584.0" />
+              <point x="12.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.view.View">
+              <point x="-15.363636363636374" y="-18.0" />
+              <point x="1051.571322424717" y="1500.0" />
+              <point x="1015.4349587883535" y="1500.0" />
+              <point x="-25.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Block" target="ir.shayandaneshvar.model.Direction">
+              <point x="0.0" y="-18.0" />
+              <point x="1530.7801968835915" y="262.0" />
+              <point x="1569.4615886228535" y="262.0" />
+              <point x="-14.36363636363626" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Player" target="ir.shayandaneshvar.model.Action">
+              <point x="41.66666666666663" y="-18.0" />
+              <point x="874.6760302169248" y="514.0" />
+              <point x="1290.9326388888887" y="514.0" />
+              <point x="-56.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Player">
+              <point x="52.8125" y="-18.0" />
+              <point x="342.65625" y="1172.0" />
+              <point x="557.6493055555554" y="1172.0" />
+              <point x="557.6493055555554" y="850.0" />
+              <point x="798.918454459349" y="850.0" />
+              <point x="-34.09090909090912" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Wall" target="ir.shayandaneshvar.model.Position">
+              <point x="0.0" y="-18.0" />
+              <point x="915.6993055555554" y="116.0" />
+              <point x="1306.933558319823" y="116.0" />
+              <point x="-25.72499999999991" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Cell" target="ir.shayandaneshvar.model.BoardItem">
+              <point x="34.33333333333337" y="-18.0" />
+              <point x="532.3426968835915" y="348.0" />
+              <point x="491.96861631452566" y="348.0" />
+              <point x="491.96861631452566" y="272.0" />
+              <point x="688.0752249864897" y="272.0" />
+              <point x="-39.5" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Player" target="ir.shayandaneshvar.model.Piece">
+              <point x="0.0" y="-18.0" />
+              <point x="833.0093635502582" y="398.0" />
+              <point x="772.8668916531564" y="398.0" />
+              <point x="7.125" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Board">
+              <point x="0.0" y="-18.0" />
+              <point x="384.39930555555543" y="890.0" />
+              <point x="388.99930555555545" y="890.0" />
+              <point x="-45.60000000000002" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Block">
+              <point x="51.0" y="-18.0" />
+              <point x="1036.696863550258" y="1026.0" />
+              <point x="1583.9576388888886" y="1026.0" />
+              <point x="1583.9576388888886" y="850.0" />
+              <point x="1553.5801968835915" y="850.0" />
+              <point x="22.799999999999955" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Sake">
+              <point x="85.95000000000005" y="-18.0" />
+              <point x="1555.9826388888887" y="890.0" />
+              <point x="2047.0849116161614" y="890.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Cell">
+              <point x="-65.4545454545455" y="-18.0" />
+              <point x="1085.325651429046" y="1142.0" />
+              <point x="256.40625" y="1142.0" />
+              <point x="256.40625" y="514.0" />
+              <point x="451.65936355025815" y="514.0" />
+              <point x="-46.35000000000002" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Act">
+              <point x="46.09090909090901" y="-18.0" />
+              <point x="1113.0258678792625" y="1520.0" />
+              <point x="1930.2773358585855" y="1520.0" />
+              <point x="1930.2773358585855" y="1182.0" />
+              <point x="1922.860669191919" y="1182.0" />
+              <point x="30.66666666666663" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Board">
+              <point x="31.6875" y="-18.0" />
+              <point x="321.53125" y="1162.0" />
+              <point x="446.39930555555543" y="1162.0" />
+              <point x="446.39930555555543" y="820.0" />
+              <point x="434.5993055555555" y="820.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Piece" target="ir.shayandaneshvar.model.Position">
+              <point x="38.0" y="-18.0" />
+              <point x="803.7418916531564" y="272.0" />
+              <point x="817.0752249864897" y="272.0" />
+              <point x="817.0752249864897" y="106.0" />
+              <point x="1299.583558319823" y="106.0" />
+              <point x="-33.075000000000045" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.controller.Triple">
+              <point x="30.727272727272748" y="-18.0" />
+              <point x="1097.6622315156262" y="1510.0" />
+              <point x="1795.1315025252522" y="1510.0" />
+              <point x="1795.1315025252522" y="1162.0" />
+              <point x="1787.5690025252522" y="1162.0" />
+              <point x="46.875" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.HumanPlayer">
+              <point x="17.85714285714289" y="-18.0" />
+              <point x="989.7206730740677" y="1258.0" />
+              <point x="1105.7801968835915" y="1258.0" />
+              <point x="-45.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.view.View">
+              <point x="-56.33333333333326" y="18.0" />
+              <point x="233.51041666666674" y="1278.0" />
+              <point x="282.4866071428571" y="1278.0" />
+              <point x="282.4866071428571" y="1394.0" />
+              <point x="1008.0778159312106" y="1394.0" />
+              <point x="-33.10714285714289" y="-18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Piece">
+              <point x="-52.66666666666674" y="-18.0" />
+              <point x="995.0102829811924" y="790.0" />
+              <point x="906.0093635502582" y="790.0" />
+              <point x="906.0093635502582" y="388.0" />
+              <point x="787.1168916531564" y="388.0" />
+              <point x="21.375" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.view.View">
+              <point x="46.875" y="18.0" />
+              <point x="1018.7385302169248" y="1354.0" />
+              <point x="1037.506387359782" y="1354.0" />
+              <point x="-3.678571428571445" y="-18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Action">
+              <point x="16.36363636363626" y="-18.0" />
+              <point x="1167.1438332472278" y="1142.0" />
+              <point x="1351.4076388888886" y="1142.0" />
+              <point x="1351.4076388888886" y="574.0" />
+              <point x="1365.9326388888887" y="574.0" />
+              <point x="18.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Act">
+              <point x="81.81818181818176" y="-18.0" />
+              <point x="1232.5983787017733" y="1182.0" />
+              <point x="1861.5273358585855" y="1182.0" />
+              <point x="-30.66666666666663" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Direction">
+              <point x="32.66666666666674" y="-18.0" />
+              <point x="1269.596058319823" y="820.0" />
+              <point x="1463.2801968835915" y="820.0" />
+              <point x="1463.2801968835915" y="252.0" />
+              <point x="1555.097952259217" y="252.0" />
+              <point x="-28.727272727272748" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Position">
+              <point x="40.46428571428572" y="-18.0" />
+              <point x="1081.6492445026392" y="1414.0" />
+              <point x="1985.0849116161614" y="1414.0" />
+              <point x="1985.0849116161614" y="96.0" />
+              <point x="1373.083558319823" y="96.0" />
+              <point x="40.424999999999955" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Validator">
+              <point x="5.666666666666629" y="-18.0" />
+              <point x="991.3635302169248" y="986.0" />
+              <point x="1008.1769496478591" y="986.0" />
+              <point x="-39.5" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Move">
+              <point x="28.33333333333337" y="-18.0" />
+              <point x="1014.0301968835915" y="1006.0" />
+              <point x="1137.1769496478591" y="1006.0" />
+              <point x="1137.1769496478591" y="790.0" />
+              <point x="1166.6801968835916" y="790.0" />
+              <point x="-20.59999999999991" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Wall">
+              <point x="-5.666666666666629" y="-18.0" />
+              <point x="980.0301968835915" y="966.0" />
+              <point x="917.0093635502582" y="966.0" />
+              <point x="917.0093635502582" y="504.0" />
+              <point x="993.7593635502582" y="504.0" />
+              <point x="993.7593635502582" y="368.0" />
+              <point x="928.5743055555554" y="368.0" />
+              <point x="12.875" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.controller.Triple">
+              <point x="18.39285714285711" y="-18.0" />
+              <point x="1059.5778159312106" y="1384.0" />
+              <point x="1766.4440025252522" y="1384.0" />
+              <point x="1766.4440025252522" y="1152.0" />
+              <point x="1756.3190025252522" y="1152.0" />
+              <point x="15.625" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Action">
+              <point x="-9.549999999999955" y="-18.0" />
+              <point x="1460.4826388888887" y="670.0" />
+              <point x="1414.9051968835915" y="670.0" />
+              <point x="1414.9051968835915" y="574.0" />
+              <point x="1378.4326388888887" y="574.0" />
+              <point x="31.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Main" target="ir.shayandaneshvar.controller.Controller">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Act">
+              <point x="33.10714285714283" y="-18.0" />
+              <point x="1074.2921016454961" y="1404.0" />
+              <point x="1902.0273358585855" y="1404.0" />
+              <point x="1902.0273358585855" y="1182.0" />
+              <point x="1892.1940025252522" y="1182.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Block">
+              <point x="70.22222222222217" y="-18.0" />
+              <point x="1117.8991718700813" y="830.0" />
+              <point x="1485.1801968835916" y="830.0" />
+              <point x="-45.59999999999991" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Game">
+              <point x="-61.454545454545496" y="-18.0" />
+              <point x="1005.480413333808" y="1530.0" />
+              <point x="410.34375" y="1530.0" />
+              <point x="410.34375" y="1036.0" />
+              <point x="395.8437499999999" y="1036.0" />
+              <point x="11.444444444444457" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Player">
+              <point x="-32.72727272727275" y="-18.0" />
+              <point x="1118.0529241563188" y="1122.0" />
+              <point x="601.233558319823" y="1122.0" />
+              <point x="601.233558319823" y="870.0" />
+              <point x="821.6457271866218" y="870.0" />
+              <point x="-11.363636363636374" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Move">
+              <point x="35.111111111111086" y="-18.0" />
+              <point x="1082.7880607589702" y="780.0" />
+              <point x="1146.0801968835915" y="780.0" />
+              <point x="-41.200000000000045" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Direction">
+              <point x="47.75" y="-18.0" />
+              <point x="1517.7826388888886" y="860.0" />
+              <point x="1598.2801968835915" y="860.0" />
+              <point x="14.36363636363626" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Wall">
+              <point x="-35.111111111111086" y="-18.0" />
+              <point x="1012.5658385367481" y="890.0" />
+              <point x="1004.7593635502582" y="890.0" />
+              <point x="1004.7593635502582" y="358.0" />
+              <point x="954.3243055555554" y="358.0" />
+              <point x="38.625" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Piece">
+              <point x="-49.09090909090901" y="-18.0" />
+              <point x="1101.6892877926825" y="1132.0" />
+              <point x="546.6493055555554" y="1132.0" />
+              <point x="546.6493055555554" y="820.0" />
+              <point x="760.0093635502582" y="820.0" />
+              <point x="760.0093635502582" y="398.0" />
+              <point x="758.6168916531564" y="398.0" />
+              <point x="-7.125" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Position">
+              <point x="76.81818181818176" y="-18.0" />
+              <point x="1143.7531406065352" y="1540.0" />
+              <point x="2116.4349116161616" y="1540.0" />
+              <point x="2116.4349116161616" y="56.0" />
+              <point x="1402.483558319823" y="56.0" />
+              <point x="69.82500000000005" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Player">
+              <point x="-17.0" y="-18.0" />
+              <point x="968.6968635502582" y="976.0" />
+              <point x="817.3811237373736" y="976.0" />
+              <point x="817.3811237373736" y="890.0" />
+              <point x="844.3729999138945" y="890.0" />
+              <point x="11.363636363636374" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Sake" target="ir.shayandaneshvar.model.Position">
+              <point x="25.75" y="-18.0" />
+              <point x="2072.8349116161617" y="76.0" />
+              <point x="1387.783558319823" y="76.0" />
+              <point x="55.125" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Direction">
+              <point x="61.454545454545496" y="-18.0" />
+              <point x="1128.389504242899" y="1530.0" />
+              <point x="1948.6940025252522" y="1530.0" />
+              <point x="1948.6940025252522" y="252.0" />
+              <point x="1655.6434068046715" y="252.0" />
+              <point x="71.81818181818176" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Observable">
+              <point x="-44.14285714285711" y="-18.0" />
+              <point x="340.2564484126983" y="890.0" />
+              <point x="148.25" y="890.0" />
+              <point x="42.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Classic">
+              <point x="0.0" y="-18.0" />
+              <point x="971.8635302169248" y="1182.0" />
+              <point x="985.6968635502582" y="1182.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Move">
+              <point x="0.0" y="-18.0" />
+              <point x="1236.9293916531562" y="720.0" />
+              <point x="1207.8801968835915" y="720.0" />
+              <point x="20.59999999999991" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.controller.Controller">
+              <point x="-15.625" y="18.0" />
+              <point x="956.2385302169248" y="1424.0" />
+              <point x="946.1135302169248" y="1424.0" />
+              <point x="946.1135302169248" y="1510.0" />
+              <point x="1036.2076860610807" y="1510.0" />
+              <point x="-30.727272727272748" y="-18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.Position">
+              <point x="-50.66666666666663" y="-18.0" />
+              <point x="383.93263888888885" y="504.0" />
+              <point x="341.6427076467196" y="504.0" />
+              <point x="341.6427076467196" y="66.0" />
+              <point x="1270.183558319823" y="66.0" />
+              <point x="-62.47499999999991" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Block">
+              <point x="28.65000000000009" y="-18.0" />
+              <point x="1498.6826388888887" y="850.0" />
+              <point x="1530.7801968835915" y="850.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Player" target="ir.shayandaneshvar.model.Cell">
+              <point x="-41.66666666666663" y="-18.0" />
+              <point x="791.3426968835915" y="524.0" />
+              <point x="534.0593635502581" y="524.0" />
+              <point x="36.049999999999955" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Block">
+              <point x="49.0" y="-18.0" />
+              <point x="1285.9293916531562" y="840.0" />
+              <point x="1507.9801968835916" y="840.0" />
+              <point x="-22.799999999999955" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.RandomPlayer">
+              <point x="53.571428571428555" y="-18.0" />
+              <point x="1025.4349587883535" y="1278.0" />
+              <point x="1813.6940025252522" y="1278.0" />
+              <point x="1813.6940025252522" y="996.0" />
+              <point x="1470.0326388888886" y="996.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Board">
+              <point x="-35.71428571428578" y="-18.0" />
+              <point x="936.149244502639" y="1268.0" />
+              <point x="524.6493055555554" y="1268.0" />
+              <point x="524.6493055555554" y="820.0" />
+              <point x="457.39930555555543" y="820.0" />
+              <point x="22.799999999999955" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.controller.Choice">
+              <point x="-11.035714285714278" y="-18.0" />
+              <point x="1030.1492445026392" y="1364.0" />
+              <point x="987.4885302169248" y="1364.0" />
+              <point x="15.625" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Move">
+              <point x="-28.65000000000009" y="-18.0" />
+              <point x="1441.3826388888886" y="680.0" />
+              <point x="1228.4801968835916" y="680.0" />
+              <point x="41.200000000000045" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Position">
+              <point x="66.84999999999991" y="-18.0" />
+              <point x="1536.8826388888886" y="880.0" />
+              <point x="1977.7349116161615" y="880.0" />
+              <point x="1977.7349116161615" y="106.0" />
+              <point x="1365.733558319823" y="106.0" />
+              <point x="33.075000000000045" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.BoardAssets" target="ir.shayandaneshvar.model.Wall">
+              <point x="67.5" y="-18.0" />
+              <point x="727.0093635502582" y="418.0" />
+              <point x="902.8243055555554" y="418.0" />
+              <point x="-12.875" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Position">
+              <point x="-17.555555555555657" y="-18.0" />
+              <point x="1030.1213940923035" y="890.0" />
+              <point x="1021.9468635502582" y="890.0" />
+              <point x="1021.9468635502582" y="126.0" />
+              <point x="1314.283558319823" y="126.0" />
+              <point x="-18.375" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.controller.Triple">
+              <point x="49.09090909090901" y="-18.0" />
+              <point x="1199.8711059745006" y="1162.0" />
+              <point x="1693.8190025252522" y="1162.0" />
+              <point x="-46.875" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Action">
+              <point x="16.333333333333258" y="-18.0" />
+              <point x="1253.2627249864895" y="800.0" />
+              <point x="1259.5801968835915" y="800.0" />
+              <point x="1259.5801968835915" y="554.0" />
+              <point x="1340.9326388888887" y="554.0" />
+              <point x="-6.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Direction">
+              <point x="52.66666666666674" y="-18.0" />
+              <point x="1100.343616314526" y="810.0" />
+              <point x="1270.5801968835915" y="810.0" />
+              <point x="1270.5801968835915" y="584.0" />
+              <point x="1452.2801968835915" y="584.0" />
+              <point x="1452.2801968835915" y="242.0" />
+              <point x="1540.7343158955805" y="242.0" />
+              <point x="-43.09090909090901" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Cell" target="ir.shayandaneshvar.model.Position">
+              <point x="-34.33333333333337" y="-18.0" />
+              <point x="463.6760302169248" y="368.0" />
+              <point x="434.13436355025806" y="368.0" />
+              <point x="434.13436355025806" y="76.0" />
+              <point x="1277.533558319823" y="76.0" />
+              <point x="-55.125" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Block" target="ir.shayandaneshvar.model.Action">
+              <point x="-22.799999999999955" y="-18.0" />
+              <point x="1507.9801968835916" y="554.0" />
+              <point x="1403.4326388888887" y="554.0" />
+              <point x="56.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Move">
+              <point x="0.0" y="-18.0" />
+              <point x="1150.7801968835915" y="1182.0" />
+              <point x="1152.9293916531562" y="1182.0" />
+              <point x="1152.9293916531562" y="800.0" />
+              <point x="1187.2801968835915" y="800.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Piece" target="ir.shayandaneshvar.model.BoardItem">
+              <point x="-38.0" y="-18.0" />
+              <point x="727.7418916531564" y="272.0" />
+              <point x="714.408558319823" y="272.0" />
+              <point x="-13.166666666666742" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Position">
+              <point x="65.33333333333326" y="-18.0" />
+              <point x="1302.2627249864895" y="870.0" />
+              <point x="1970.3849116161614" y="870.0" />
+              <point x="1970.3849116161614" y="116.0" />
+              <point x="1358.383558319823" y="116.0" />
+              <point x="25.72499999999991" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Tournament">
+              <point x="-53.571428571428555" y="-18.0" />
+              <point x="918.2921016454964" y="1278.0" />
+              <point x="346.17708333333337" y="1278.0" />
+              <point x="56.33333333333337" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Wall" target="ir.shayandaneshvar.model.BoardItem">
+              <point x="-41.200000000000045" y="-18.0" />
+              <point x="874.4993055555553" y="262.0" />
+              <point x="767.0752249864897" y="262.0" />
+              <point x="39.5" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.view.View">
+              <point x="45.33333333333337" y="18.0" />
+              <point x="1031.0301968835915" y="1182.0" />
+              <point x="1044.8635302169248" y="1182.0" />
+              <point x="3.678571428571445" y="-18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Block">
+              <point x="32.72727272727275" y="-18.0" />
+              <point x="1183.5074696108643" y="1152.0" />
+              <point x="1628.3076388888887" y="1152.0" />
+              <point x="1628.3076388888887" y="840.0" />
+              <point x="1576.3801968835915" y="840.0" />
+              <point x="45.59999999999991" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Wall" target="ir.shayandaneshvar.model.Direction">
+              <point x="20.59999999999991" y="-18.0" />
+              <point x="936.2993055555553" y="222.0" />
+              <point x="1512.007043168308" y="222.0" />
+              <point x="-71.81818181818176" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Piece">
+              <point x="-16.333333333333258" y="-18.0" />
+              <point x="1220.596058319823" y="730.0" />
+              <point x="928.0093635502582" y="730.0" />
+              <point x="928.0093635502582" y="378.0" />
+              <point x="801.3668916531564" y="378.0" />
+              <point x="35.625" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Move" target="ir.shayandaneshvar.model.Action">
+              <point x="0.0" y="-18.0" />
+              <point x="1187.2801968835915" y="534.0" />
+              <point x="1315.9326388888887" y="534.0" />
+              <point x="-31.25" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Direction">
+              <point x="25.75" y="-18.0" />
+              <point x="1066.9349587883535" y="1394.0" />
+              <point x="1835.6940025252522" y="1394.0" />
+              <point x="1835.6940025252522" y="262.0" />
+              <point x="1641.279770441035" y="262.0" />
+              <point x="57.454545454545496" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Action">
+              <point x="17.555555555555657" y="-18.0" />
+              <point x="1065.2325052034148" y="770.0" />
+              <point x="1119.5301968835915" y="770.0" />
+              <point x="1119.5301968835915" y="524.0" />
+              <point x="1303.4326388888887" y="524.0" />
+              <point x="-43.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Cell">
+              <point x="-28.33333333333337" y="-18.0" />
+              <point x="957.3635302169248" y="986.0" />
+              <point x="682.4418916531563" y="986.0" />
+              <point x="682.4418916531563" y="810.0" />
+              <point x="585.0168916531563" y="810.0" />
+              <point x="585.0168916531563" y="554.0" />
+              <point x="503.15936355025815" y="554.0" />
+              <point x="5.149999999999977" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.controller.Controller">
+              <point x="45.0" y="18.0" />
+              <point x="1195.7801968835915" y="1500.0" />
+              <point x="1082.2985951519897" y="1500.0" />
+              <point x="15.36363636363626" y="-18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.Cell">
+              <point x="-12.666666666666629" y="-18.0" />
+              <point x="421.93263888888885" y="534.0" />
+              <point x="472.2593635502582" y="534.0" />
+              <point x="-25.75" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Classic">
+              <point x="73.9375" y="-18.0" />
+              <point x="363.78125" y="1182.0" />
+              <point x="940.3635302169248" y="1182.0" />
+              <point x="-45.33333333333337" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Board">
+              <point x="-39.66666666666674" y="-18.0" />
+              <point x="946.0301968835914" y="996.0" />
+              <point x="535.6493055555554" y="996.0" />
+              <point x="535.6493055555554" y="810.0" />
+              <point x="480.1993055555555" y="810.0" />
+              <point x="45.60000000000002" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Player">
+              <point x="-49.0" y="-18.0" />
+              <point x="1187.9293916531562" y="750.0" />
+              <point x="855.7366362775309" y="750.0" />
+              <point x="22.727272727272748" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Block" target="ir.shayandaneshvar.model.Position">
+              <point x="45.59999999999991" y="-18.0" />
+              <point x="1576.3801968835915" y="584.0" />
+              <point x="1963.0349116161615" y="584.0" />
+              <point x="1963.0349116161615" y="126.0" />
+              <point x="1351.033558319823" y="126.0" />
+              <point x="18.375" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.BoardItem" target="ir.shayandaneshvar.model.Position">
+              <point x="-39.5" y="-18.0" />
+              <point x="688.0752249864897" y="86.0" />
+              <point x="1284.883558319823" y="86.0" />
+              <point x="-47.77500000000009" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.Action" target="ir.shayandaneshvar.model.Position">
+              <point x="-31.25" y="-18.0" />
+              <point x="1315.9326388888887" y="418.0" />
+              <point x="1367.4326388888887" y="418.0" />
+              <point x="1367.4326388888887" y="146.0" />
+              <point x="1336.333558319823" y="146.0" />
+              <point x="3.6749999999999545" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6635437881873728" x="737.6942909760589" y="967.6942909760589" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/HumanPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/RandomPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ir.shayandaneshvar.model.MediumAI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ir.shayandaneshvar.model.MediumAI</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="60.5" y="258.0">ir.shayandaneshvar.model.MediumAI</node>
+            <node x="71.5" y="172.0">ir.shayandaneshvar.model.Player</node>
+            <node x="60.5" y="86.0">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ir.shayandaneshvar.model.Player" target="java.lang.Runnable">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Player">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-309.0" y="113.5" />
+          <SelectedNodes>
+            <node>ir.shayandaneshvar.model.MediumAI</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/MediumAI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardAssets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="177">
+          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1428#1591#0" expanded="true" />
             <element signature="e#1590#1591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Classic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+          <folding>
+            <element signature="method#Classic#0;class#Classic#0" />
+            <element signature="method#run#0;class#Classic#0" />
+            <element signature="e#912#1301#1" />
+            <element signature="e#951#1049#1" />
+            <element signature="e#1055#1183#1" />
+            <element signature="e#1632#2022#1" />
+            <element signature="e#1671#1769#1" />
+            <element signature="e#1775#1904#1" />
+            <element signature="method#handleAction#0;class#Classic#0" />
+            <element signature="e#3187#3328#1" />
+            <element signature="e#3389#3530#1" />
+            <element signature="e#3556#3709#1" />
+            <element signature="e#3715#3868#1" />
+            <element signature="e#4365#4556#1" />
+            <element signature="e#4463#4546#1" />
+            <element signature="e#4899#5090#1" />
+            <element signature="e#4997#5080#1" />
+            <element signature="e#5374#5522#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="219" column="40" lean-forward="true" selection-start-line="219" selection-start-column="40" selection-end-line="219" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1120,5 +2271,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

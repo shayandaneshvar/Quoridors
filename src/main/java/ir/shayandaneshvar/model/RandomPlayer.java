@@ -13,6 +13,10 @@ public class RandomPlayer extends Player {
     }
 
     @Override
+    public void run() {
+    }
+
+    @Override
     public Action getNextMove(Piece player, Piece still, Graph<Cell, DefaultEdge> board, List<Cell> cells) {
         Random random = new Random();
         if (Math.abs(random.nextInt()) % 10 == 0) {

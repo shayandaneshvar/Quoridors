@@ -15,6 +15,10 @@ public class HumanPlayer extends Player {
     }
 
     @Override
+    public void run() {
+    }
+
+    @Override
     public Action getNextMove(Piece player, Piece still, Graph<Cell, DefaultEdge> board, List<Cell> cells) {
         Triple<Act, Position, Direction> result = Controller.handleInputs();
         if (result.getFirst() == Act.MOVE) {
