@@ -8,6 +8,7 @@ import java.util.List;
 
 public abstract class Game implements Observable, Runnable {
     protected boolean tournament;
+    protected Validator validator;
     private Board board;
     private Player player1;
     private Player player2;
@@ -66,6 +67,7 @@ public abstract class Game implements Observable, Runnable {
     public Player getPlayer2() {
         return player2;
     }
+
     @Override
     public abstract void run();
 

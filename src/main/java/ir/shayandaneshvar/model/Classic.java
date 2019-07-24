@@ -13,13 +13,14 @@ public class Classic extends Game {
 
     public Classic(Board board, Player player1, Player player2) {
         super(board, player1, player2);
+        validator = new ClassicValidator();
     }
 
     @Override
     public void run() {
         Platform.runLater(this::handleGameOver);
         Action act;
-        if (super.getTurn() % 2 == 0 && Validator.isValid(true, act =
+        if (super.getTurn() % 2 == 0 && validator.isValid(true, act =
                         getPlayer1().getNextMove(getBoard().getAssets().getPiece1(),
                                 getBoard().getAssets().getPiece2(),
                                 getBoard().getGameBoard(), getBoard().getCells()),
@@ -34,7 +35,7 @@ public class Classic extends Game {
             this.nextTurn();
             return;
         }
-        if (super.getTurn() % 2 == 1 && Validator.isValid(false, act =
+        if (super.getTurn() % 2 == 1 && validator.isValid(false, act =
                         getPlayer2().getNextMove(getBoard().getAssets().getPiece2(),
                                 getBoard().getAssets().getPiece1(),
                                 getBoard().getGameBoard(), getBoard().getCells()),
