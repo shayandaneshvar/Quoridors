@@ -1,5 +1,9 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Assets;
 
+import ir.shayandaneshvar.model.Assets.BoardAssets;
+import ir.shayandaneshvar.model.Assets.Cell;
+import ir.shayandaneshvar.model.Assets.Piece;
+import ir.shayandaneshvar.model.Position;
 import javafx.scene.paint.Color;
 import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultEdge;

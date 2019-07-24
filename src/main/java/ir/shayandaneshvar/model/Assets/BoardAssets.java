@@ -1,4 +1,7 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Assets;
+
+import ir.shayandaneshvar.model.Assets.Piece;
+import ir.shayandaneshvar.model.Assets.Wall;
 
 import java.util.Collection;
 import java.util.HashSet;

@@ -1,4 +1,15 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Validators;
+
+import ir.shayandaneshvar.model.Actions.Action;
+import ir.shayandaneshvar.model.Actions.Block;
+import ir.shayandaneshvar.model.Actions.Move;
+import ir.shayandaneshvar.model.Assets.Cell;
+import ir.shayandaneshvar.model.Assets.Piece;
+import ir.shayandaneshvar.model.Assets.Wall;
+import ir.shayandaneshvar.model.Direction;
+import ir.shayandaneshvar.model.Games.Classic;
+import ir.shayandaneshvar.model.Games.Game;
+import ir.shayandaneshvar.model.Position;
 
 import java.util.HashSet;
 import java.util.Optional;
@@ -43,20 +54,19 @@ public class ClassicValidator implements Validator {
         }
         //1-2
         //3-4
+        final int actionX = action.getPosition().getX();
+        final int actionY = action.getPosition().getY();
         Cell first = game.getBoard().getCells().stream().filter(x -> x.
                 getPosition().equals(action.getPosition())).findFirst().get();
         Cell second = game.getBoard().getCells().stream().filter(x -> x.
-                getPosition().getX() == action.getPosition().getX() + 1 && x.
-                getPosition().getY() == action.getPosition().getY()).findFirst()
-                .get();
+                getPosition().getX() == actionX + 1 && x.getPosition().getY() ==
+                actionY).findFirst().get();
         Cell fourth = game.getBoard().getCells().stream().filter(x -> x.
-                getPosition().getX() == action.getPosition().getX() + 1 && x.
-                getPosition().getY() == action.getPosition().getY() + 1).
-                findFirst().get();
+                getPosition().getX() == actionX + 1 && x.getPosition().getY() ==
+                actionY + 1).findFirst().get();
         Cell third = game.getBoard().getCells().stream().filter(x -> x.
-                getPosition().getX() == action.getPosition().getX() && x.
-                getPosition().getY() == action.getPosition().getY() + 1).
-                findFirst().get();
+                getPosition().getX() == actionX && x.getPosition().getY() ==
+                actionY + 1).findFirst().get();
         if (action.getDirection() == Direction.HORIZONTAL) {
             return game.getBoard().getGameBoard().containsEdge(first, third) &&
                     game.getBoard().getGameBoard().containsEdge(fourth, second);

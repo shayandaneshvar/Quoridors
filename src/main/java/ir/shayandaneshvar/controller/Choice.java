@@ -1,6 +1,12 @@
 package ir.shayandaneshvar.controller;
 
-import ir.shayandaneshvar.model.*;
+import ir.shayandaneshvar.model.Assets.Board;
+import ir.shayandaneshvar.model.Games.Classic;
+import ir.shayandaneshvar.model.Games.Tournament;
+import ir.shayandaneshvar.model.Players.HumanPlayer;
+import ir.shayandaneshvar.model.Players.MediumAI;
+import ir.shayandaneshvar.model.Players.Player;
+import ir.shayandaneshvar.model.Players.RandomPlayer;
 import ir.shayandaneshvar.view.View;
 import javafx.scene.Group;
 import javafx.scene.Scene;

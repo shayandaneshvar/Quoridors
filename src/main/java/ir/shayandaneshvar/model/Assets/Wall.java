@@ -1,4 +1,8 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Assets;
+
+import ir.shayandaneshvar.model.Assets.BoardItem;
+import ir.shayandaneshvar.model.Direction;
+import ir.shayandaneshvar.model.Position;
 
 public class Wall extends BoardItem {
 

@@ -1,5 +1,9 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Games;
 
+import ir.shayandaneshvar.model.Assets.Board;
+import ir.shayandaneshvar.model.Observable;
+import ir.shayandaneshvar.model.Players.Player;
+import ir.shayandaneshvar.model.Validators.Validator;
 import ir.shayandaneshvar.view.Observer;
 
 import java.util.ArrayList;

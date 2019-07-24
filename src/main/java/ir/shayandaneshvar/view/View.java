@@ -3,6 +3,8 @@ package ir.shayandaneshvar.view;
 import ir.shayandaneshvar.controller.Choice;
 import ir.shayandaneshvar.controller.Triple;
 import ir.shayandaneshvar.model.*;
+import ir.shayandaneshvar.model.Actions.Act;
+import ir.shayandaneshvar.model.Games.Game;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;

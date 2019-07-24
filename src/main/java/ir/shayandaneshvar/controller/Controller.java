@@ -1,26 +1,24 @@
 package ir.shayandaneshvar.controller;
 
+import ir.shayandaneshvar.model.Actions.Act;
+import ir.shayandaneshvar.model.Direction;
+import ir.shayandaneshvar.model.Games.Game;
+import ir.shayandaneshvar.model.Position;
+import ir.shayandaneshvar.view.View;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.SceneAntialiasing;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import ir.shayandaneshvar.model.Act;
-import ir.shayandaneshvar.model.Direction;
-import ir.shayandaneshvar.model.Game;
-import ir.shayandaneshvar.model.Position;
-import ir.shayandaneshvar.view.View;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
 
 public class Controller {
-    private View view;
     private Game game;
 
     public Controller(View view, Game game) {
-        this.view = view;
         this.game = game;
         game.addObserver(view);
         game.updateObservers();

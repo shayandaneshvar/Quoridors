@@ -1,5 +1,14 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Games;
 
+import ir.shayandaneshvar.model.Actions.Action;
+import ir.shayandaneshvar.model.Actions.Block;
+import ir.shayandaneshvar.model.Actions.Move;
+import ir.shayandaneshvar.model.Assets.Board;
+import ir.shayandaneshvar.model.Assets.Cell;
+import ir.shayandaneshvar.model.Assets.Wall;
+import ir.shayandaneshvar.model.Validators.ClassicValidator;
+import ir.shayandaneshvar.model.Direction;
+import ir.shayandaneshvar.model.Players.Player;
 import ir.shayandaneshvar.view.View;
 import javafx.application.Platform;
 import javafx.scene.paint.Color;

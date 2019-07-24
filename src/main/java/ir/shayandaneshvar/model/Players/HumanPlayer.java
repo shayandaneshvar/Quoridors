@@ -1,8 +1,17 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Players;
 
 
 import ir.shayandaneshvar.controller.Controller;
 import ir.shayandaneshvar.controller.Triple;
+import ir.shayandaneshvar.model.Actions.Act;
+import ir.shayandaneshvar.model.Actions.Action;
+import ir.shayandaneshvar.model.Actions.Block;
+import ir.shayandaneshvar.model.Actions.Move;
+import ir.shayandaneshvar.model.Assets.Cell;
+import ir.shayandaneshvar.model.Assets.Piece;
+import ir.shayandaneshvar.model.Direction;
+import ir.shayandaneshvar.model.Players.Player;
+import ir.shayandaneshvar.model.Position;
 import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultEdge;
 

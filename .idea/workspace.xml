@@ -8,14 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="300e70af-24f6-4573-ac9c-713ca2433b36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Classic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Classic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/ClassicValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/ClassicValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Sake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Sake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3457">
-              <caret line="223" column="16" selection-start-line="223" selection-start-column="16" selection-end-line="223" selection-end-column="16" />
+            <state relative-caret-position="1508">
+              <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,18 +52,30 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1428#1591#0" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
                 <element signature="e#218#219#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
@@ -79,901 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/ir.shayandaneshvar.model.Cell">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>ir.shayandaneshvar.model.Cell</OriginalElement>
-              <nodes>
-                <node x="408.18578445107516" y="176.0">ir.shayandaneshvar.model.Direction</node>
-                <node x="1511.5760802371844" y="1670.0">ir.shayandaneshvar.view.View</node>
-                <node x="1911.309646073541" y="980.0">ir.shayandaneshvar.model.Game</node>
-                <node x="40.51552828913236" y="1448.0">ir.shayandaneshvar.model.HumanPlayer</node>
-                <node x="801.1428010164052" y="1872.0">ir.shayandaneshvar.controller.Main</node>
-                <node x="816.6015362828462" y="1534.0">ir.shayandaneshvar.controller.Choice</node>
-                <node x="1325.0659902597404" y="176.0">ir.shayandaneshvar.model.BoardItem</node>
-                <node x="1392.2064373800415" y="478.0">java.lang.Runnable</node>
-                <node x="1251.9251873800415" y="312.0">ir.shayandaneshvar.model.Piece</node>
-                <node x="196.31818181818198" y="1166.0">ir.shayandaneshvar.model.MediumAI</node>
-                <node x="1600.8688201653608" y="312.0">ir.shayandaneshvar.model.Wall</node>
-                <node x="1730.982656926407" y="764.0">ir.shayandaneshvar.model.Validator</node>
-                <node x="901.3928010164052" y="1312.0">ir.shayandaneshvar.controller.Triple</node>
-                <node x="1086.2542368320273" y="0.0">ir.shayandaneshvar.model.Position</node>
-                <node x="1880.5064373800415" y="1448.0">ir.shayandaneshvar.model.Tournament</node>
-                <node x="1907.982656926407" y="764.0">ir.shayandaneshvar.model.Board</node>
-                <node x="728.8928010164052" y="980.0">ir.shayandaneshvar.model.Move</node>
-                <node x="1608.982656926407" y="478.0">ir.shayandaneshvar.model.BoardAssets</node>
-                <node x="754.1428010164052" y="1312.0">ir.shayandaneshvar.model.Act</node>
-                <node x="2023.182656926407" y="478.0">ir.shayandaneshvar.model.Observable</node>
-                <node x="768.1428010164052" y="1786.0">ir.shayandaneshvar.controller.Controller</node>
-                <node x="339.8928010164051" y="764.0">ir.shayandaneshvar.model.Block</node>
-                <node x="464.1080297893395" y="1166.0">ir.shayandaneshvar.model.RandomPlayer</node>
-                <node x="1194.4564373800415" y="1312.0">ir.shayandaneshvar.model.Classic</node>
-                <node x="484.8928010164051" y="478.0">ir.shayandaneshvar.model.Action</node>
-                <node x="1252.3017857142856" y="478.0">ir.shayandaneshvar.model.Cell</node>
-                <node x="1190.0472402597404" y="1166.0">ir.shayandaneshvar.model.ClassicValidator</node>
-                <node x="211.01552828913236" y="176.0">ir.shayandaneshvar.model.Sake</node>
-                <node x="572.8928010164052" y="764.0">ir.shayandaneshvar.model.Player</node>
-                <node x="2052.1826569264067" y="764.0">ir.shayandaneshvar.view.Observer</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Piece">
-                  <point x="47.5" y="-18.0" />
-                  <point x="606.6080297893395" y="1106.0" />
-                  <point x="707.3928010164052" y="1106.0" />
-                  <point x="707.3928010164052" y="428.0" />
-                  <point x="1301.3626873800415" y="428.0" />
-                  <point x="-7.0625" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.BoardAssets" target="ir.shayandaneshvar.model.Piece">
-                  <point x="-67.125" y="-18.0" />
-                  <point x="1631.357656926407" y="418.0" />
-                  <point x="1329.6126873800415" y="418.0" />
-                  <point x="21.1875" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Position">
-                  <point x="-81.36363636363637" y="-18.0" />
-                  <point x="48.65189192549599" y="1428.0" />
-                  <point x="25.818181818181756" y="1428.0" />
-                  <point x="25.818181818181756" y="86.0" />
-                  <point x="1097.2042368320276" y="86.0" />
-                  <point x="-62.049999999999955" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.Observer" target="ir.shayandaneshvar.model.Observable">
-                  <point x="-36.5" y="-18.0" />
-                  <point x="2088.6826569264067" y="744.0" />
-                  <point x="2086.1826569264067" y="744.0" />
-                  <point x="-21.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Validator">
-                  <point x="-25.5" y="-18.0" />
-                  <point x="1936.809646073541" y="830.0" />
-                  <point x="1809.482656926407" y="830.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.MediumAI">
-                  <point x="-35.428571428571445" y="-18.0" />
-                  <point x="843.1729648542746" y="1514.0" />
-                  <point x="855.6428010164052" y="1514.0" />
-                  <point x="855.6428010164052" y="1292.0" />
-                  <point x="269.318181818182" y="1292.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.BoardAssets">
-                  <point x="12.555555555555657" y="-18.0" />
-                  <point x="1977.0382124819625" y="574.0" />
-                  <point x="1698.482656926407" y="574.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Player">
-                  <point x="0.0" y="-18.0" />
-                  <point x="877.6428010164052" y="950.0" />
-                  <point x="646.1655282891325" y="950.0" />
-                  <point x="11.272727272727252" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-16.875" y="-18.0" />
-                  <point x="1245.0814373800415" y="1232.0" />
-                  <point x="1106.2564373800415" y="1232.0" />
-                  <point x="1106.2564373800415" y="282.0" />
-                  <point x="515.2312389965297" y="282.0" />
-                  <point x="28.545454545454504" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Observable" target="ir.shayandaneshvar.view.Observer">
-                  <point x="21.0" y="18.0" />
-                  <point x="2128.1826569264067" y="744.0" />
-                  <point x="2161.6826569264067" y="744.0" />
-                  <point x="36.5" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Wall">
-                  <point x="21.272727272727252" y="-18.0" />
-                  <point x="1328.3199675324677" y="1086.0" />
-                  <point x="1418.2004489532396" y="1086.0" />
-                  <point x="1418.2004489532396" y="910.0" />
-                  <point x="1548.7064373800415" y="910.0" />
-                  <point x="1548.7064373800415" y="448.0" />
-                  <point x="1613.6188201653608" y="448.0" />
-                  <point x="-38.25" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Player">
-                  <point x="28.5" y="-18.0" />
-                  <point x="587.6080297893395" y="1096.0" />
-                  <point x="634.7564373800415" y="1096.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Move">
-                  <point x="-106.36363636363649" y="-18.0" />
-                  <point x="1200.683603896104" y="1136.0" />
-                  <point x="820.6928010164052" y="1136.0" />
-                  <point x="40.799999999999955" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Game">
-                  <point x="50.625" y="-18.0" />
-                  <point x="1312.5814373800415" y="1282.0" />
-                  <point x="1876.247146073541" y="1282.0" />
-                  <point x="1876.247146073541" y="1136.0" />
-                  <point x="1926.609646073541" y="1136.0" />
-                  <point x="-35.700000000000045" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Action">
-                  <point x="-28.125" y="-18.0" />
-                  <point x="1233.8314373800415" y="1242.0" />
-                  <point x="1095.2564373800415" y="1242.0" />
-                  <point x="1095.2564373800415" y="654.0" />
-                  <point x="580.710982834587" y="654.0" />
-                  <point x="33.81818181818187" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Game">
-                  <point x="18.214285714285722" y="-18.0" />
-                  <point x="1580.7903659514702" y="1610.0" />
-                  <point x="2154.4326569264067" y="1610.0" />
-                  <point x="2154.4326569264067" y="1146.0" />
-                  <point x="1987.809646073541" y="1146.0" />
-                  <point x="25.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Cell">
-                  <point x="16.22222222222217" y="-18.0" />
-                  <point x="285.54040404040416" y="1096.0" />
-                  <point x="229.01552828913236" y="1096.0" />
-                  <point x="229.01552828913236" y="910.0" />
-                  <point x="463.3928010164051" y="910.0" />
-                  <point x="463.3928010164051" y="704.0" />
-                  <point x="1267.6017857142856" y="704.0" />
-                  <point x="-35.700000000000045" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Game">
-                  <point x="-31.5" y="-18.0" />
-                  <point x="1933.0064373800415" y="1428.0" />
-                  <point x="1945.0096460735408" y="1428.0" />
-                  <point x="1945.0096460735408" y="1146.0" />
-                  <point x="1947.009646073541" y="1146.0" />
-                  <point x="-15.299999999999955" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-42.545454545454504" y="-18.0" />
-                  <point x="1264.501785714286" y="1106.0" />
-                  <point x="1175.5064373800415" y="1106.0" />
-                  <point x="1175.5064373800415" y="272.0" />
-                  <point x="529.503966269257" y="272.0" />
-                  <point x="42.81818181818187" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.Piece">
-                  <point x="37.66666666666674" y="-18.0" />
-                  <point x="2002.1493235930736" y="554.0" />
-                  <point x="1946.8683641196992" y="554.0" />
-                  <point x="1946.8683641196992" y="378.0" />
-                  <point x="1357.8626873800415" y="378.0" />
-                  <point x="49.4375" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Cell">
-                  <point x="66.5" y="-18.0" />
-                  <point x="625.6080297893395" y="1116.0" />
-                  <point x="718.3928010164052" y="1116.0" />
-                  <point x="718.3928010164052" y="724.0" />
-                  <point x="1288.0017857142857" y="724.0" />
-                  <point x="-15.299999999999955" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Move" target="ir.shayandaneshvar.model.Position">
-                  <point x="34.0" y="-18.0" />
-                  <point x="813.8928010164052" y="960.0" />
-                  <point x="797.4454545454546" y="960.0" />
-                  <point x="797.4454545454546" y="388.0" />
-                  <point x="1159.0064373800415" y="388.0" />
-                  <point x="1159.0064373800415" y="156.0" />
-                  <point x="1155.6042368320273" y="156.0" />
-                  <point x="-3.650000000000091" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.view.Observer">
-                  <point x="35.700000000000045" y="-18.0" />
-                  <point x="1998.009646073541" y="950.0" />
-                  <point x="2070.4326569264067" y="950.0" />
-                  <point x="-54.75" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Player">
-                  <point x="-45.90000000000009" y="-18.0" />
-                  <point x="1916.409646073541" y="850.0" />
-                  <point x="679.9837101073142" y="850.0" />
-                  <point x="45.09090909090912" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-65.09090909090912" y="-18.0" />
-                  <point x="64.92461919822324" y="1418.0" />
-                  <point x="36.81818181818198" y="1418.0" />
-                  <point x="36.81818181818198" y="252.0" />
-                  <point x="429.59487536016604" y="252.0" />
-                  <point x="-57.09090909090912" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.view.Observer">
-                  <point x="25.499999999999943" y="-18.0" />
-                  <point x="1588.0760802371844" y="1620.0" />
-                  <point x="2161.7183712121214" y="1620.0" />
-                  <point x="2161.7183712121214" y="960.0" />
-                  <point x="2179.9326569264067" y="960.0" />
-                  <point x="54.75" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Position">
-                  <point x="63.818181818181756" y="-18.0" />
-                  <point x="1370.8654220779222" y="1106.0" />
-                  <point x="1540.2004489532396" y="1106.0" />
-                  <point x="1540.2004489532396" y="930.0" />
-                  <point x="1685.295903498694" y="930.0" />
-                  <point x="1685.295903498694" y="744.0" />
-                  <point x="1809.482656926407" y="744.0" />
-                  <point x="1809.482656926407" y="86.0" />
-                  <point x="1206.7042368320276" y="86.0" />
-                  <point x="47.450000000000045" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.view.Observer">
-                  <point x="73.5" y="-18.0" />
-                  <point x="2038.0064373800415" y="1428.0" />
-                  <point x="2143.4326569264067" y="1428.0" />
-                  <point x="18.25" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.view.View">
-                  <point x="45.81818181818187" y="-18.0" />
-                  <point x="897.960982834587" y="1746.0" />
-                  <point x="1588.0760802371844" y="1746.0" />
-                  <point x="25.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Observable">
-                  <point x="32.785714285714164" y="-18.0" />
-                  <point x="1595.3617945228987" y="1630.0" />
-                  <point x="2208.6826569264067" y="1630.0" />
-                  <point x="2208.6826569264067" y="744.0" />
-                  <point x="2170.1826569264067" y="744.0" />
-                  <point x="63.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Block" target="ir.shayandaneshvar.model.Direction">
-                  <point x="0.0" y="-18.0" />
-                  <point x="396.3928010164051" y="282.0" />
-                  <point x="472.4130571783479" y="282.0" />
-                  <point x="-14.272727272727252" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Player" target="ir.shayandaneshvar.model.Action">
-                  <point x="-46.5" y="-18.0" />
-                  <point x="588.3928010164052" y="684.0" />
-                  <point x="546.8928010164051" y="684.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Player">
-                  <point x="-52.5" y="-18.0" />
-                  <point x="1912.0064373800415" y="1428.0" />
-                  <point x="1900.809646073541" y="1428.0" />
-                  <point x="1900.809646073541" y="860.0" />
-                  <point x="668.710982834587" y="860.0" />
-                  <point x="33.81818181818187" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Wall" target="ir.shayandaneshvar.model.Position">
-                  <point x="40.799999999999955" y="-18.0" />
-                  <point x="1692.6688201653608" y="106.0" />
-                  <point x="1192.1042368320273" y="106.0" />
-                  <point x="32.84999999999991" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Cell" target="ir.shayandaneshvar.model.BoardItem">
-                  <point x="-34.0" y="-18.0" />
-                  <point x="1269.3017857142856" y="438.0" />
-                  <point x="1397.8159902597404" y="438.0" />
-                  <point x="1397.8159902597404" y="292.0" />
-                  <point x="1390.4826569264071" y="292.0" />
-                  <point x="-13.083333333333258" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Player" target="ir.shayandaneshvar.model.Piece">
-                  <point x="-15.5" y="-18.0" />
-                  <point x="619.3928010164052" y="418.0" />
-                  <point x="1287.2376873800415" y="418.0" />
-                  <point x="-21.1875" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Board">
-                  <point x="5.099999999999909" y="-18.0" />
-                  <point x="1967.409646073541" y="920.0" />
-                  <point x="1987.0826569264068" y="920.0" />
-                  <point x="22.59999999999991" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Block">
-                  <point x="-50.625" y="-18.0" />
-                  <point x="1211.3314373800415" y="1262.0" />
-                  <point x="1073.2564373800415" y="1262.0" />
-                  <point x="1073.2564373800415" y="890.0" />
-                  <point x="418.9928010164051" y="890.0" />
-                  <point x="22.600000000000023" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Sake">
-                  <point x="-85.5" y="-18.0" />
-                  <point x="473.6080297893395" y="1066.0" />
-                  <point x="262.01552828913236" y="1066.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Act">
-                  <point x="-30.545454545454504" y="-18.0" />
-                  <point x="821.5973464709507" y="1736.0" />
-                  <point x="799.6428010164052" y="1736.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Cell">
-                  <point x="-16.272727272727252" y="-18.0" />
-                  <point x="113.74280101640511" y="1388.0" />
-                  <point x="69.81818181818198" y="1388.0" />
-                  <point x="69.81818181818198" y="880.0" />
-                  <point x="292.76552828913236" y="880.0" />
-                  <point x="292.76552828913236" y="694.0" />
-                  <point x="1257.4017857142856" y="694.0" />
-                  <point x="-45.90000000000009" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Game">
-                  <point x="52.33333333333326" y="18.0" />
-                  <point x="1861.8159902597401" y="820.0" />
-                  <point x="1947.009646073541" y="820.0" />
-                  <point x="-15.299999999999955" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Board">
-                  <point x="52.5" y="-18.0" />
-                  <point x="2017.0064373800415" y="1428.0" />
-                  <point x="2026.0064373800415" y="1428.0" />
-                  <point x="2026.0064373800415" y="920.0" />
-                  <point x="2009.682656926407" y="920.0" />
-                  <point x="45.200000000000045" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Piece" target="ir.shayandaneshvar.model.Position">
-                  <point x="-37.66666666666674" y="-18.0" />
-                  <point x="1271.132656926407" y="146.0" />
-                  <point x="1162.9042368320274" y="146.0" />
-                  <point x="3.650000000000091" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.HumanPlayer">
-                  <point x="-53.14285714285711" y="-18.0" />
-                  <point x="825.458679139989" y="1514.0" />
-                  <point x="174.76552828913236" y="1514.0" />
-                  <point x="44.75" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.controller.Triple">
-                  <point x="15.272727272727252" y="-18.0" />
-                  <point x="867.4155282891325" y="1726.0" />
-                  <point x="966.107086730691" y="1726.0" />
-                  <point x="966.107086730691" y="1418.0" />
-                  <point x="947.8928010164052" y="1418.0" />
-                  <point x="-15.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.view.View">
-                  <point x="0.0" y="18.0" />
-                  <point x="1964.5064373800415" y="1514.0" />
-                  <point x="1988.8635802371846" y="1514.0" />
-                  <point x="1988.8635802371846" y="1590.0" />
-                  <point x="1566.2189373800416" y="1590.0" />
-                  <point x="3.6428571428571104" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Cell">
-                  <point x="-21.272727272727252" y="-18.0" />
-                  <point x="1285.7745129870132" y="1146.0" />
-                  <point x="1270.6027267590366" y="1146.0" />
-                  <point x="1270.6027267590366" y="734.0" />
-                  <point x="1298.2017857142857" y="734.0" />
-                  <point x="-5.099999999999909" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.view.View">
-                  <point x="46.5" y="18.0" />
-                  <point x="925.1015362828462" y="1640.0" />
-                  <point x="1522.5046516657558" y="1640.0" />
-                  <point x="-40.07142857142867" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.ClassicValidator">
-                  <point x="-5.625" y="-18.0" />
-                  <point x="1256.3314373800415" y="1222.0" />
-                  <point x="1248.5472402597404" y="1222.0" />
-                  <point x="-58.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Action">
-                  <point x="-32.545454545454504" y="-18.0" />
-                  <point x="97.47007374367786" y="1398.0" />
-                  <point x="58.81818181818198" y="1398.0" />
-                  <point x="58.81818181818198" y="870.0" />
-                  <point x="130.81818181818198" y="870.0" />
-                  <point x="130.81818181818198" y="654.0" />
-                  <point x="490.5291646527687" y="654.0" />
-                  <point x="-56.363636363636374" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Act">
-                  <point x="65.0909090909091" y="-18.0" />
-                  <point x="195.10643738004148" y="1418.0" />
-                  <point x="769.3094676830717" y="1418.0" />
-                  <point x="-30.33333333333337" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-48.66666666666674" y="-18.0" />
-                  <point x="220.65151515151524" y="1136.0" />
-                  <point x="141.81818181818198" y="1136.0" />
-                  <point x="141.81818181818198" y="262.0" />
-                  <point x="443.8676026328933" y="262.0" />
-                  <point x="-42.81818181818187" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Position">
-                  <point x="47.35714285714283" y="-18.0" />
-                  <point x="1609.9332230943273" y="1650.0" />
-                  <point x="2223.2540854978356" y="1650.0" />
-                  <point x="2223.2540854978356" y="56.0" />
-                  <point x="1228.6042368320273" y="56.0" />
-                  <point x="69.34999999999991" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Move">
-                  <point x="-61.875" y="-18.0" />
-                  <point x="1200.0814373800415" y="1272.0" />
-                  <point x="825.0831309220257" y="1272.0" />
-                  <point x="825.0831309220257" y="1146.0" />
-                  <point x="800.2928010164051" y="1146.0" />
-                  <point x="20.399999999999977" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Wall">
-                  <point x="28.125" y="-18.0" />
-                  <point x="1290.0814373800415" y="1262.0" />
-                  <point x="1720.482656926407" y="1262.0" />
-                  <point x="1720.482656926407" y="724.0" />
-                  <point x="1570.7064373800415" y="724.0" />
-                  <point x="1570.7064373800415" y="458.0" />
-                  <point x="1639.1188201653608" y="458.0" />
-                  <point x="-12.75" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Action">
-                  <point x="-63.818181818181756" y="-18.0" />
-                  <point x="1243.2290584415587" y="1116.0" />
-                  <point x="1164.5064373800415" y="1116.0" />
-                  <point x="1164.5064373800415" y="644.0" />
-                  <point x="591.9837101073142" y="644.0" />
-                  <point x="45.09090909090912" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.controller.Triple">
-                  <point x="-18.21428571428578" y="-18.0" />
-                  <point x="1544.3617945228987" y="1610.0" />
-                  <point x="997.8872505685601" y="1610.0" />
-                  <point x="997.8872505685601" y="1418.0" />
-                  <point x="1009.8928010164052" y="1418.0" />
-                  <point x="46.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Main" target="ir.shayandaneshvar.controller.Controller">
-                  <point x="0.0" y="-18.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Action">
-                  <point x="-9.5" y="-18.0" />
-                  <point x="549.6080297893395" y="1116.0" />
-                  <point x="535.6200737436778" y="1116.0" />
-                  <point x="-11.272727272727252" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Act">
-                  <point x="-32.78571428571422" y="-18.0" />
-                  <point x="1529.7903659514702" y="1630.0" />
-                  <point x="977.107086730691" y="1630.0" />
-                  <point x="977.107086730691" y="1408.0" />
-                  <point x="829.9761343497385" y="1408.0" />
-                  <point x="30.33333333333337" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Player">
-                  <point x="32.545454545454504" y="-18.0" />
-                  <point x="162.56098283458687" y="1398.0" />
-                  <point x="185.81818181818198" y="1398.0" />
-                  <point x="185.81818181818198" y="930.0" />
-                  <point x="589.801891925496" y="930.0" />
-                  <point x="-45.09090909090912" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Game">
-                  <point x="61.09090909090912" y="-18.0" />
-                  <point x="913.2337101073142" y="1756.0" />
-                  <point x="2234.2540854978356" y="1756.0" />
-                  <point x="2234.2540854978356" y="1136.0" />
-                  <point x="1998.009646073541" y="1136.0" />
-                  <point x="35.700000000000045" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-28.5" y="-18.0" />
-                  <point x="530.6080297893395" y="1036.0" />
-                  <point x="474.3928010164051" y="1036.0" />
-                  <point x="474.3928010164051" y="292.0" />
-                  <point x="486.68578445107516" y="292.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Position">
-                  <point x="-76.36363636363637" y="-18.0" />
-                  <point x="775.7791646527687" y="1766.0" />
-                  <point x="0.0" y="1766.0" />
-                  <point x="0.0" y="76.0" />
-                  <point x="1089.9042368320274" y="76.0" />
-                  <point x="-69.34999999999991" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Piece">
-                  <point x="-48.81818181818187" y="-18.0" />
-                  <point x="81.19734647095049" y="1408.0" />
-                  <point x="47.81818181818198" y="1408.0" />
-                  <point x="47.81818181818198" y="398.0" />
-                  <point x="1258.9876873800415" y="398.0" />
-                  <point x="-49.4375" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Player">
-                  <point x="-39.375" y="-18.0" />
-                  <point x="1222.5814373800415" y="1252.0" />
-                  <point x="1084.2564373800415" y="1252.0" />
-                  <point x="1084.2564373800415" y="880.0" />
-                  <point x="657.4382555618597" y="880.0" />
-                  <point x="22.545454545454504" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Sake" target="ir.shayandaneshvar.model.Position">
-                  <point x="25.5" y="-18.0" />
-                  <point x="287.51552828913236" y="116.0" />
-                  <point x="1119.1042368320273" y="116.0" />
-                  <point x="-40.15000000000009" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Controller" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-61.09090909090912" y="-18.0" />
-                  <point x="791.051891925496" y="1756.0" />
-                  <point x="11.0" y="1756.0" />
-                  <point x="11.0" y="242.0" />
-                  <point x="415.3221480874388" y="242.0" />
-                  <point x="-71.36363636363637" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Game" target="ir.shayandaneshvar.model.Observable">
-                  <point x="25.5" y="-18.0" />
-                  <point x="1987.809646073541" y="940.0" />
-                  <point x="2041.682656926407" y="940.0" />
-                  <point x="2041.682656926407" y="744.0" />
-                  <point x="2044.182656926407" y="744.0" />
-                  <point x="-63.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Classic">
-                  <point x="35.428571428571445" y="-18.0" />
-                  <point x="914.0301077114175" y="1504.0" />
-                  <point x="935.357086730691" y="1504.0" />
-                  <point x="935.357086730691" y="1428.0" />
-                  <point x="1216.9564373800415" y="1428.0" />
-                  <point x="-45.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Move">
-                  <point x="64.88888888888891" y="-18.0" />
-                  <point x="334.2070707070709" y="1126.0" />
-                  <point x="739.0928010164052" y="1126.0" />
-                  <point x="-40.799999999999955" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.controller.Controller">
-                  <point x="-46.5" y="18.0" />
-                  <point x="832.1015362828462" y="1650.0" />
-                  <point x="842.1015362828462" y="1650.0" />
-                  <point x="842.1015362828462" y="1766.0" />
-                  <point x="836.870073743678" y="1766.0" />
-                  <point x="-15.272727272727252" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.Position">
-                  <point x="50.22222222222217" y="-18.0" />
-                  <point x="2014.704879148629" y="544.0" />
-                  <point x="1957.8683641196992" y="544.0" />
-                  <point x="1957.8683641196992" y="76.0" />
-                  <point x="1214.0042368320273" y="76.0" />
-                  <point x="54.75" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Block">
-                  <point x="-47.5" y="-18.0" />
-                  <point x="511.6080297893395" y="1046.0" />
-                  <point x="414.18578445107516" y="1046.0" />
-                  <point x="414.18578445107516" y="900.0" />
-                  <point x="396.3928010164051" y="900.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Player" target="ir.shayandaneshvar.model.Cell">
-                  <point x="15.5" y="-18.0" />
-                  <point x="650.3928010164052" y="714.0" />
-                  <point x="1277.8017857142856" y="714.0" />
-                  <point x="-25.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Block">
-                  <point x="0.0" y="-18.0" />
-                  <point x="269.318181818182" y="1106.0" />
-                  <point x="174.81818181818198" y="1106.0" />
-                  <point x="174.81818181818198" y="900.0" />
-                  <point x="373.79280101640506" y="900.0" />
-                  <point x="-22.600000000000023" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.RandomPlayer">
-                  <point x="-17.714285714285666" y="-18.0" />
-                  <point x="860.8872505685604" y="1514.0" />
-                  <point x="866.6428010164052" y="1514.0" />
-                  <point x="866.6428010164052" y="1282.0" />
-                  <point x="559.1080297893395" y="1282.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Board">
-                  <point x="17.71428571428578" y="-18.0" />
-                  <point x="896.3158219971319" y="1514.0" />
-                  <point x="888.6428010164052" y="1514.0" />
-                  <point x="888.6428010164052" y="950.0" />
-                  <point x="1919.2826569264068" y="950.0" />
-                  <point x="-45.200000000000045" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.controller.Choice">
-                  <point x="-47.35714285714289" y="-18.0" />
-                  <point x="1515.2189373800416" y="1650.0" />
-                  <point x="894.1015362828462" y="1650.0" />
-                  <point x="15.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Move">
-                  <point x="85.5" y="-18.0" />
-                  <point x="644.6080297893395" y="1136.0" />
-                  <point x="759.4928010164051" y="1136.0" />
-                  <point x="-20.399999999999977" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.RandomPlayer" target="ir.shayandaneshvar.model.Position">
-                  <point x="-66.5" y="-18.0" />
-                  <point x="492.6080297893395" y="1056.0" />
-                  <point x="323.51552828913236" y="1056.0" />
-                  <point x="323.51552828913236" y="126.0" />
-                  <point x="1126.4042368320274" y="126.0" />
-                  <point x="-32.84999999999991" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.BoardAssets" target="ir.shayandaneshvar.model.Wall">
-                  <point x="22.375" y="-18.0" />
-                  <point x="1720.857656926407" y="398.0" />
-                  <point x="1664.6188201653608" y="398.0" />
-                  <point x="12.75" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.controller.Triple">
-                  <point x="81.36363636363637" y="-18.0" />
-                  <point x="211.37916465276874" y="1428.0" />
-                  <point x="916.8928010164052" y="1428.0" />
-                  <point x="-46.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Action">
-                  <point x="-16.22222222222217" y="-18.0" />
-                  <point x="253.0959595959598" y="1116.0" />
-                  <point x="163.81818181818198" y="1116.0" />
-                  <point x="163.81818181818198" y="664.0" />
-                  <point x="501.80189192549597" y="664.0" />
-                  <point x="-45.09090909090912" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Classic">
-                  <point x="58.5" y="18.0" />
-                  <point x="1365.5472402597404" y="1242.0" />
-                  <point x="1267.5814373800415" y="1242.0" />
-                  <point x="5.625" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Cell" target="ir.shayandaneshvar.model.Position">
-                  <point x="34.0" y="-18.0" />
-                  <point x="1337.3017857142856" y="458.0" />
-                  <point x="1492.5659902597404" y="458.0" />
-                  <point x="1492.5659902597404" y="116.0" />
-                  <point x="1184.8042368320275" y="116.0" />
-                  <point x="25.549999999999955" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Block" target="ir.shayandaneshvar.model.Action">
-                  <point x="22.600000000000023" y="-18.0" />
-                  <point x="418.9928010164051" y="674.0" />
-                  <point x="513.0746191982232" y="674.0" />
-                  <point x="-33.81818181818181" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Move">
-                  <point x="48.818181818181756" y="-18.0" />
-                  <point x="178.83371010731412" y="1408.0" />
-                  <point x="743.6428010164052" y="1408.0" />
-                  <point x="743.6428010164052" y="1146.0" />
-                  <point x="779.8928010164052" y="1146.0" />
-                  <point x="0.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Validator">
-                  <point x="85.09090909090901" y="-18.0" />
-                  <point x="1392.1381493506494" y="1116.0" />
-                  <point x="1551.2004489532396" y="1116.0" />
-                  <point x="1551.2004489532396" y="940.0" />
-                  <point x="1757.1493235930736" y="940.0" />
-                  <point x="-52.33333333333326" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Piece" target="ir.shayandaneshvar.model.BoardItem">
-                  <point x="37.66666666666674" y="-18.0" />
-                  <point x="1346.0918540467082" y="292.0" />
-                  <point x="1364.3159902597404" y="292.0" />
-                  <point x="-39.25" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Position">
-                  <point x="-64.88888888888891" y="-18.0" />
-                  <point x="204.42929292929307" y="1146.0" />
-                  <point x="119.81818181818198" y="1146.0" />
-                  <point x="119.81818181818198" y="96.0" />
-                  <point x="1104.5042368320273" y="96.0" />
-                  <point x="-54.75" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.controller.Choice" target="ir.shayandaneshvar.model.Tournament">
-                  <point x="53.14285714285711" y="-18.0" />
-                  <point x="931.7443934257033" y="1514.0" />
-                  <point x="1908.5064373800415" y="1514.0" />
-                  <point x="-56.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Wall" target="ir.shayandaneshvar.model.BoardItem">
-                  <point x="0.0" y="-18.0" />
-                  <point x="1651.8688201653608" y="242.0" />
-                  <point x="1442.8159902597404" y="242.0" />
-                  <point x="39.25" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.model.Block">
-                  <point x="0.0" y="-18.0" />
-                  <point x="130.01552828913236" y="1378.0" />
-                  <point x="97.81818181818198" y="1378.0" />
-                  <point x="97.81818181818198" y="890.0" />
-                  <point x="351.19280101640516" y="890.0" />
-                  <point x="-45.19999999999993" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.view.View">
-                  <point x="0.0" y="18.0" />
-                  <point x="1261.9564373800415" y="1590.0" />
-                  <point x="1558.9332230943273" y="1590.0" />
-                  <point x="-3.6428571428571104" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Wall" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-20.40000000000009" y="-18.0" />
-                  <point x="1631.4688201653607" y="252.0" />
-                  <point x="558.0494208147115" y="252.0" />
-                  <point x="71.36363636363637" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Piece">
-                  <point x="-32.44444444444446" y="-18.0" />
-                  <point x="236.87373737373753" y="1126.0" />
-                  <point x="152.81818181818198" y="1126.0" />
-                  <point x="152.81818181818198" y="408.0" />
-                  <point x="1273.1126873800415" y="408.0" />
-                  <point x="-35.3125" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Piece">
-                  <point x="0.0" y="-18.0" />
-                  <point x="1307.0472402597404" y="1146.0" />
-                  <point x="1309.2017857142857" y="1146.0" />
-                  <point x="1309.2017857142857" y="940.0" />
-                  <point x="1381.7064373800415" y="940.0" />
-                  <point x="1381.7064373800415" y="428.0" />
-                  <point x="1315.4876873800415" y="428.0" />
-                  <point x="7.0625" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Player" target="java.lang.Runnable">
-                  <point x="46.5" y="-18.0" />
-                  <point x="681.3928010164052" y="744.0" />
-                  <point x="1428.7064373800415" y="744.0" />
-                  <point x="-36.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Move" target="ir.shayandaneshvar.model.Action">
-                  <point x="0.0" y="-18.0" />
-                  <point x="779.8928010164052" y="664.0" />
-                  <point x="569.4382555618597" y="664.0" />
-                  <point x="22.545454545454618" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Game" target="java.lang.Runnable">
-                  <point x="15.299999999999955" y="-18.0" />
-                  <point x="1977.609646073541" y="930.0" />
-                  <point x="2031.482656926407" y="930.0" />
-                  <point x="2031.482656926407" y="534.0" />
-                  <point x="1501.7064373800415" y="534.0" />
-                  <point x="36.5" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.view.View" target="ir.shayandaneshvar.model.Direction">
-                  <point x="-10.928571428571331" y="-18.0" />
-                  <point x="1551.647508808613" y="1600.0" />
-                  <point x="1035.8928010164052" y="1600.0" />
-                  <point x="1035.8928010164052" y="292.0" />
-                  <point x="500.9585117238024" y="292.0" />
-                  <point x="14.272727272727252" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Validator" target="ir.shayandaneshvar.model.Action">
-                  <point x="0.0" y="-18.0" />
-                  <point x="1809.482656926407" y="634.0" />
-                  <point x="603.2564373800415" y="634.0" />
-                  <point x="56.363636363636374" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Cell">
-                  <point x="16.875" y="-18.0" />
-                  <point x="1278.8314373800415" y="1252.0" />
-                  <point x="1604.0972402597404" y="1252.0" />
-                  <point x="1604.0972402597404" y="900.0" />
-                  <point x="1325.3064373800414" y="900.0" />
-                  <point x="1325.3064373800414" y="734.0" />
-                  <point x="1308.4017857142856" y="734.0" />
-                  <point x="5.099999999999909" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Block">
-                  <point x="-85.09090909090924" y="-18.0" />
-                  <point x="1221.9563311688312" y="1126.0" />
-                  <point x="1153.5064373800415" y="1126.0" />
-                  <point x="1153.5064373800415" y="870.0" />
-                  <point x="441.592801016405" y="870.0" />
-                  <point x="45.19999999999993" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.HumanPlayer" target="ir.shayandaneshvar.controller.Controller">
-                  <point x="-44.75" y="18.0" />
-                  <point x="85.26552828913236" y="1746.0" />
-                  <point x="806.3246191982232" y="1746.0" />
-                  <point x="-45.81818181818187" y="-18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Board" target="ir.shayandaneshvar.model.Cell">
-                  <point x="-12.555555555555657" y="-18.0" />
-                  <point x="1951.9271013708512" y="594.0" />
-                  <point x="1349.2017857142857" y="594.0" />
-                  <point x="45.90000000000009" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Tournament" target="ir.shayandaneshvar.model.Classic">
-                  <point x="-73.5" y="-18.0" />
-                  <point x="1891.0064373800415" y="1428.0" />
-                  <point x="1306.9564373800415" y="1428.0" />
-                  <point x="45.0" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.MediumAI" target="ir.shayandaneshvar.model.Player">
-                  <point x="32.44444444444446" y="-18.0" />
-                  <point x="301.76262626262644" y="1086.0" />
-                  <point x="240.01552828913236" y="1086.0" />
-                  <point x="240.01552828913236" y="940.0" />
-                  <point x="601.0746191982232" y="940.0" />
-                  <point x="-33.81818181818187" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Classic" target="ir.shayandaneshvar.model.Board">
-                  <point x="39.375" y="-18.0" />
-                  <point x="1301.3314373800415" y="1272.0" />
-                  <point x="1865.247146073541" y="1272.0" />
-                  <point x="1865.247146073541" y="960.0" />
-                  <point x="1941.882656926407" y="960.0" />
-                  <point x="-22.59999999999991" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Block" target="ir.shayandaneshvar.model.Position">
-                  <point x="-45.19999999999993" y="-18.0" />
-                  <point x="351.19280101640516" y="644.0" />
-                  <point x="349.66552828913245" y="644.0" />
-                  <point x="349.66552828913245" y="136.0" />
-                  <point x="1133.7042368320276" y="136.0" />
-                  <point x="-25.549999999999955" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.BoardItem" target="ir.shayandaneshvar.model.Position">
-                  <point x="39.25" y="-18.0" />
-                  <point x="1442.8159902597404" y="126.0" />
-                  <point x="1177.5042368320273" y="126.0" />
-                  <point x="18.25" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.Action" target="ir.shayandaneshvar.model.Position">
-                  <point x="31.0" y="-18.0" />
-                  <point x="577.8928010164051" y="378.0" />
-                  <point x="1089.7564373800415" y="378.0" />
-                  <point x="1089.7564373800415" y="156.0" />
-                  <point x="1148.3042368320275" y="156.0" />
-                  <point x="-10.950000000000045" y="18.0" />
-                </edge>
-                <edge source="ir.shayandaneshvar.model.ClassicValidator" target="ir.shayandaneshvar.model.Game">
-                  <point x="106.36363636363626" y="-18.0" />
-                  <point x="1413.4108766233767" y="1126.0" />
-                  <point x="1916.409646073541" y="1126.0" />
-                  <point x="-45.90000000000009" y="18.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.340066592674806" x="1759.8256584396222" y="211.02907073049522" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="390">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -984,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="116">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
@@ -1002,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Sake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
+            <state relative-caret-position="232">
               <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
@@ -1011,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/ClassicValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="116">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1088,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/Triple.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Action.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Cell.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Tournament.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Choice.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/Observer.java" />
@@ -1109,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/ClassicValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -1148,6 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1228,8 +345,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1348,18 +463,18 @@
       <workItem from="1563810526038" duration="180000" />
       <workItem from="1563876097809" duration="5149000" />
       <workItem from="1563942878355" duration="3466000" />
-      <workItem from="1563955058807" duration="2862000" />
+      <workItem from="1563955058807" duration="3102000" />
+      <workItem from="1563966187987" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104085000" />
+    <option name="totallyTimeSpent" value="104957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.27569592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.27944326" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.27569592" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1367,8 +482,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.27569592" />
       <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="PMD" weight="0.32930845" />
-      <window_info anchor="bottom" id="Duplicates" weight="0.7442371" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32822758" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33040616" />
@@ -1384,6 +497,8 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32930845" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="14" weight="0.32930845" />
+      <window_info anchor="bottom" id="PMD" order="15" weight="0.32930845" />
+      <window_info anchor="bottom" id="Duplicates" order="16" weight="0.7442371" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Maven" order="2" weight="0.32976446" />
@@ -2856,60 +1971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Sake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -2932,46 +1993,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3457">
-          <caret line="223" column="16" selection-start-line="223" selection-start-column="16" selection-end-line="223" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/ClassicValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3855,11 +2880,101 @@
               <point x="-45.90000000000009" y="18.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.340066592674806" x="1759.8256584396222" y="211.02907073049522" />
+          <settings layout="Hierarchic Group" zoom="1.340066592674806" x="1760.0" y="211.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/BoardItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Triple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Sake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/ClassicValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/model/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Choice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/shayandaneshvar/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1428#1591#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

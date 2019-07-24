@@ -1,5 +1,7 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Games;
 
+import ir.shayandaneshvar.model.Assets.Board;
+import ir.shayandaneshvar.model.Players.Player;
 import ir.shayandaneshvar.view.Observer;
 import ir.shayandaneshvar.view.View;
 import javafx.application.Platform;

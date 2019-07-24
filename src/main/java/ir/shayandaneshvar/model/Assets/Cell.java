@@ -1,4 +1,7 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Assets;
+
+import ir.shayandaneshvar.model.Assets.BoardItem;
+import ir.shayandaneshvar.model.Position;
 
 public class Cell extends BoardItem {
 

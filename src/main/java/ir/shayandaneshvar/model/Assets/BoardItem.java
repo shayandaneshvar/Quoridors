@@ -1,4 +1,6 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Assets;
+
+import ir.shayandaneshvar.model.Position;
 
 public abstract class BoardItem {
     private Position position;

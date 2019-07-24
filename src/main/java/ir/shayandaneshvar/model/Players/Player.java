@@ -1,5 +1,8 @@
-package ir.shayandaneshvar.model;
+package ir.shayandaneshvar.model.Players;
 
+import ir.shayandaneshvar.model.Actions.Action;
+import ir.shayandaneshvar.model.Assets.Cell;
+import ir.shayandaneshvar.model.Assets.Piece;
 import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultEdge;
 
