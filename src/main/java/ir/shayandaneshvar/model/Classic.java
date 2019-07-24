@@ -46,8 +46,8 @@ public class Classic extends Game {
                 handleAction((Block) act, false);
                 getBoard().getAssets().decrementPlayer2Walls();
             }
-            Platform.runLater(this::handleFaultyBlocking);
             this.nextTurn();
+            Platform.runLater(this::handleFaultyBlocking);
             return;
         }
     }

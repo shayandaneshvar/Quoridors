@@ -200,7 +200,7 @@ public class View implements Observer {
         Scene scene = new Scene(root, 300, 150, true,
                 SceneAntialiasing.BALANCED);
         stage.setTitle("Game Over");
-        if(!tournament){
+        if (!tournament) {
             stage.setTitle("Results");
         }
         scene.setFill(color);
@@ -232,7 +232,7 @@ public class View implements Observer {
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(5));
         root.getChildren().addAll(grid);
-        game.getBoard().getAssets().getAllWalls().stream().forEach(x -> {
+        game.getBoard().getAssets().getAllWalls().forEach(x -> {
             if (x.getDirection() == Direction.VERTICAL) {
                 verticalCorridors[x.getPosition().getY()][x.getPosition().getX()].setFill(Color.BROWN.darker());
                 verticalCorridors[x.getPosition().getY() + 1][x.getPosition().getX()].setFill(Color.BROWN.darker());

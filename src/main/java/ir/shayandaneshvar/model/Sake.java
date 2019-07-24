@@ -19,6 +19,8 @@ public enum Sake {
             case UP:
                 y--;
                 break;
+            default:
+                System.err.println("$$ Something went wrong in Sake");
         }
         System.out.println("---------------");
         System.out.println(x + "," + y);

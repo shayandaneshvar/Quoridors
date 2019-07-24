@@ -84,6 +84,6 @@ public abstract class Game implements Observable, Runnable {
 
     @Override
     public void updateObservers() {
-        observers.stream().forEach(x -> x.update(this));
+        observers.forEach(x -> x.update(this));
     }
 }

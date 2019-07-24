@@ -9,9 +9,9 @@ public enum Choice {
     EASY, MEDIUM, HARD, MULTIPLAYER, TOURNAMENT, EXIT;
 
     public static void handleChoice(Choice choice, Group root, Scene scene,
-                                    String p1, String p2) {
+                                    String play1, String play2) {
         Controller controller;
-        Player player1 = new HumanPlayer(p1);
+        Player player1 = new HumanPlayer(play1);
         Player player2 = null;
         //        ir.shayandaneshvar.controller.startView();
         switch (choice) {
@@ -27,11 +27,13 @@ public enum Choice {
                 break;
             case MULTIPLAYER:
             case TOURNAMENT:
-                player2 = new HumanPlayer(p2);
+                player2 = new HumanPlayer(play2);
                 break;
             case EXIT:
                 Runtime.getRuntime().exit(1);
                 break;
+                default:
+                    System.err.println("Impossible Situation Occurred");
         }
         if (choice != TOURNAMENT) {
             controller = new Controller(new View(root),

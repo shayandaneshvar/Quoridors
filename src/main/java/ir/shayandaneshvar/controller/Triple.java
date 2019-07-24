@@ -27,10 +27,10 @@ public class Triple<K, V, T> implements Serializable {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Triple<?, ?, ?> triple = (Triple<?, ?, ?>) o;
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Triple<?, ?, ?> triple = (Triple<?, ?, ?>) obj;
         return Objects.equals(first, triple.first) &&
                 Objects.equals(second, triple.second) &&
                 Objects.equals(third, triple.third);

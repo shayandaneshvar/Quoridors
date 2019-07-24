@@ -58,15 +58,11 @@ public class ClassicValidator implements Validator {
                 getPosition().getY() == action.getPosition().getY() + 1).
                 findFirst().get();
         if (action.getDirection() == Direction.HORIZONTAL) {
-            if (game.getBoard().getGameBoard().containsEdge(first, third) &&
-                    game.getBoard().getGameBoard().containsEdge(fourth, second)) {
-                return true;
-            }
+            return game.getBoard().getGameBoard().containsEdge(first, third) &&
+                    game.getBoard().getGameBoard().containsEdge(fourth, second);
         } else if (action.getDirection() == Direction.VERTICAL) {
-            if (game.getBoard().getGameBoard().containsEdge(first, second) &&
-                    game.getBoard().getGameBoard().containsEdge(fourth, third)) {
-                return true;
-            }
+            return game.getBoard().getGameBoard().containsEdge(first, second) &&
+                    game.getBoard().getGameBoard().containsEdge(fourth, third);
         }
         return false;
     }
